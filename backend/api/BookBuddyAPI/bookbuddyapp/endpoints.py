@@ -19,7 +19,7 @@ def register(request):
 
         json_name = body_json['name']
         json_password = body_json['password']
-        encrypted_password = bcrypt.hashpw(json_password.encoide('utf8'), bcrypt.gensalt()).decode('utf8')
+        encrypted_password = bcrypt.hashpw(json_password.encode('utf8'), bcrypt.gensalt()).decode('utf8')
 
         if User.objects.filter(name=json_name).exists() or User.objects.filter(password=json_password).exists():
             return JsonResponse({'error': 'This username already exists'}, status=409)
