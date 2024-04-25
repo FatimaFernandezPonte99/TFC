@@ -54,6 +54,7 @@
       <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +123,7 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "Merging backend",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/FatimaWork/Documents/GitHub/TFC/frontend",
     "show.do.not.copy.http.proxy.settings.to.gradle": "true"
   }
