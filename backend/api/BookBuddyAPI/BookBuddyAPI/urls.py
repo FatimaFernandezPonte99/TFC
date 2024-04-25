@@ -16,8 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from bookbuddyapp import views
+from bookbuddyapp import endpoints
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/bookbuddy/user', endpoints.register),
+
 ]
