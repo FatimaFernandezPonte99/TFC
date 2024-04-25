@@ -20,6 +20,6 @@ from bookbuddyapp import endpoints
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/bookbuddy/user', endpoints.register),
+
 
 ]
