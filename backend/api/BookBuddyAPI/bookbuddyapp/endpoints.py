@@ -9,6 +9,7 @@ from .models import User, Stand, Book
 import json
 
 
+#Endpoint para registrar un nuevo usuario en la base de datos
 @csrf_exempt
 def register(request):
     if request.method == 'POST':
@@ -32,6 +33,7 @@ def register(request):
         return JsonResponse({'error': 'Internal Server Error'}, status=500)
 
 
+#Endpoint para iniciar sesión y también para cerrar sesión
 @csrf_exempt
 def login(request):
     if request.method == 'POST':
@@ -73,8 +75,8 @@ def login(request):
         return JsonResponse({'error': 'Internal Server Error'}, status=500)
 
 
-#NO VA, MIRA POR QUÉ, EL TOKEN LLEGA NULL
-#TIENE QUE LLEVAR EL STAND EN LA PETICIÓN
+#Endpoint para subir un nuevo libro a un determinado puesto
+#Le pasas el nombre del puesto en la petición, luego busca la instancia de ese puesto
 @csrf_exempt
 def upload_book(request, stand_name):
     if request.method == 'POST':
@@ -117,3 +119,27 @@ def upload_book(request, stand_name):
         )
 
         return JsonResponse({'message': 'Book uploaded successfully'}, status=201)
+
+
+#Endpoint para obtener (GET) la información del perfil del usuario
+def profile_info(request):
+    if request.method == 'GET':
+        try:
+            token = request.headers.get("token")
+        except:
+            return JsonResponse({'error': 'Missing data'}, status=400)
+
+        try:
+            User.objects.get(token=token)
+        except User.DoesNotExist:
+            return JsonResponse({'error': 'User not found'}, status=404)
+
+        try:
+            user = User.objects.get(token=token)
+            json_response = {
+                'name': user.name,
+                'country': user.country
+            }
+            return JsonResponse(json_response, safe=False, status=200)
+        except User.DoesNotExist:
+            return JsonResponse({'error': 'User not found'}, status=404)
