@@ -20,7 +20,7 @@ from bookbuddyapp import endpoints
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/BookBuddy/session', endpoints.register)
-
-
+    path('api/BookBuddy/session', endpoints.register),
+    path('api/BookBuddy/login', endpoints.login),
+    path('api/BookBuddy/book/<stand_name>', endpoints.upload_book)
 ]
