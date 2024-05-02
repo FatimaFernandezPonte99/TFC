@@ -78,7 +78,7 @@ def login(request):
 #Endpoint para subir un nuevo libro a un determinado puesto
 #Le pasas el nombre del puesto en la petición, luego busca la instancia de ese puesto
 @csrf_exempt
-def upload_book(request, stand_name):
+def upload_book(request, stand_id):
     if request.method == 'POST':
         try:
             token = request.headers.get("token")
@@ -103,7 +103,7 @@ def upload_book(request, stand_name):
         review = data["review"]
         # Buscar la instancia de Stand basada en el nombre recibido
         try:
-            stand_instance = Stand.objects.get(name=stand_name)
+            stand_instance = Stand.objects.get(pk=stand_id)
         except Stand.DoesNotExist:
             return JsonResponse({'error': 'Stand not found'}, status=404)
 
@@ -143,3 +143,149 @@ def profile_info(request):
             return JsonResponse(json_response, safe=False, status=200)
         except User.DoesNotExist:
             return JsonResponse({'error': 'User not found'}, status=404)
+
+
+#Endpoint para que el usuario pueda actualizar la información del perfil
+@csrf_exempt
+def update_profile(request):
+    if request.method == 'PATCH':
+        body_json = json.loads(request.body)
+
+        try:
+            token = request.headers.get("token")
+        except :
+            return JsonResponse({'error': 'Miissing data'}, status=400)
+
+        try:
+            user = User.objects.get(token=token)
+        except User.DoesNotExist:
+            return JsonResponse({'error': 'User does not exist'}, status=404)
+
+        if 'name' in body_json:
+            user.name = body_json['name']
+        if 'password' in body_json:
+            user.password = body_json['password']
+        if 'country' in body_json:
+            user.country = body_json['country']
+
+        user.save()
+
+        return JsonResponse({'message': 'Profile updated successfully'}, status=201)
+
+    else:
+        return JsonResponse({'error': 'Invalido HTTP method'}, status=405)
+
+
+#Endpoint para mostrar el historial de los libros subidos por el usuario
+def books_history(request):
+    if request.method == 'GET':
+        try:
+            token = request.headers.get("token")
+        except:
+            return JsonResponse({'error': 'Missing data'}, status=400)
+
+        try:
+            user = User.objects.get(token=token)
+        except User.DoesNotExist:
+            return JsonResponse({'error': 'User not found'}, status=404)
+
+        json_response = []
+
+        all_books = Book.objects.filter(user_name=user)
+
+        for book in all_books:
+            json_response.append(book.to_json())
+        return JsonResponse(json_response, safe=False)
+
+
+#Endpoint para mostrar toda la información pertinente sobre un determinado libro
+def book_info(request, book_id):
+    if request.method == 'GET':
+        try:
+            token = request.headers.get("token")
+        except:
+            return JsonResponse({'error': 'Missing data'}, status=400)
+
+        try:
+            book = Book.objects.get(pk=book_id)
+            json_response = {
+                'title': book.title,
+                'author': book.author,
+                'num_pages': book.num_pages,
+                'editorial': book.editorial,
+                'review': book.review
+            }
+            return JsonResponse (json_response, safe=False, status=200)
+        except Book.DoesNotExist:
+            return JsonResponse({'error': 'Book not found'}, status=404)
+
+
+#Endpoint para mostrar la información del Stand
+def stand_info(request, stand_id):
+    if request.method == 'GET':
+        try:
+            token = request.headers.get("token")
+        except:
+            return JsonResponse({'error': 'Missing data'}, status=400)
+
+        try:
+            stand = Stand.objects.get(pk=stand_id)
+            json_response = {
+                'name': stand.name,
+                'address': stand.address
+            }
+            return JsonResponse (json_response, safe=False, status=200)
+        except Stand.DoesNotExist:
+            return JsonResponse({'error': 'Stand not found'}, status=404)
+
+
+#Endpoint para mostrar los libros que hay en un determinado stand
+def stand_books(request, stand_id):
+    if request.method == 'GET':
+        try:
+            token = request.headers.get("token")
+        except:
+            return JsonResponse({'error': 'Missing data'}, status=400)
+
+        try:
+            stand = Stand.objects.get(pk=stand_id)
+        except Stand.DoesNotExist:
+            return JsonResponse({'error': 'Stand not found'}, status=404)
+
+        json_response = []
+
+        all_books = Book.objects.filter(stand_name=stand)
+
+        for book in all_books:
+            json_response.append(book.to_json())
+        return JsonResponse(json_response, safe=False)
+
+
+
+@csrf_exempt
+def exchanged_book(request, book_id):
+    if request.method == 'PATCH':
+        try:
+            token = request.headers.get("token")
+        except:
+            return JsonResponse({'error': 'Missing data'}, status=400)
+
+        try:
+            book = Book.objects.get(pk=book_id)
+        except Book.DoesNotExist:
+            return JsonResponse({'error': 'Book not found'}, status=404)
+
+        try:
+            stand = Stand.objects.get(name="Prestados")
+        except Stand.DoesNotExist:
+            return JsonResponse({'error': 'Stand not found'}, status=404)
+
+        book.stand_name = stand
+
+        book.save()
+
+        return JsonResponse({'message': 'Book updated to Prestados'}, status=201)
+
+    else:
+        return  JsonResponse({'error': 'Invalid HTTP method'}, status=405)
+

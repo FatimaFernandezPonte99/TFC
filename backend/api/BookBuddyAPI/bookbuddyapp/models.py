@@ -23,3 +23,10 @@ class Book(models.Model):
     review = models.CharField(max_length=500, null=False)
     stand_name = models.ForeignKey(Stand, on_delete=models.CASCADE)
     user_name = models.ForeignKey(User, on_delete=models.CASCADE)
+
+    def to_json(self):
+        return {
+            "title": self.title,
+            "author": self.author,
+            "num_pages": self.num_pages
+        }
