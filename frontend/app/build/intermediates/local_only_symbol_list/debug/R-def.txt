@@ -1,13 +1,32 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color gray
 color white
+drawable background_button_square
+drawable fondo
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id boton_iniciar_sesion
+id boton_registro
+id contraseña
+id nombre_usuario
+id texto_bienvenida1
+id texto_bienvenida2
+id texto_contraseña
+id texto_nombre_usuario
 layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string boton_crear_cuenta
+string boton_inicio_sesion
+string contraseña
+string ejemplo_contraseña
+string ejemplo_usuario
+string nombre_usuario
+string texto_bienvenida1
+string texto_bienvenida2
 style Base.Theme.BookBuddy
 style Theme.BookBuddy
 xml backup_rules

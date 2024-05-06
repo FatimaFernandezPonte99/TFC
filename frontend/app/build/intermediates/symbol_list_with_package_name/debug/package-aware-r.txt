@@ -1395,6 +1395,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -2901,6 +2902,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable background_button_square
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2914,6 +2916,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable fondo
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -3095,6 +3098,8 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id boton_iniciar_sesion
+id boton_registro
 id bottom
 id bounce
 id bounceBoth
@@ -3131,6 +3136,7 @@ id content
 id contentPanel
 id contiguous
 id continuousVelocity
+id contraseña
 id coordinator
 id cos
 id counterclockwise
@@ -3312,6 +3318,7 @@ id neverCompleteToEnd
 id neverCompleteToStart
 id noScroll
 id noState
+id nombre_usuario
 id none
 id normal
 id north
@@ -3456,6 +3463,10 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id texto_bienvenida1
+id texto_bienvenida2
+id texto_contraseña
+id texto_nombre_usuario
 id time
 id title
 id titleDividerNoCustom
@@ -3719,6 +3730,8 @@ string abc_toolbar_collapse_description
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string boton_crear_cuenta
+string boton_inicio_sesion
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -3729,6 +3742,9 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string contraseña
+string ejemplo_contraseña
+string ejemplo_usuario
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3836,6 +3852,7 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string nombre_usuario
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -3848,6 +3865,8 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string texto_bienvenida1
+string texto_bienvenida2
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

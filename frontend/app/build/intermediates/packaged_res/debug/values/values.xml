@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="gray">#EAEAEA</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">BookBuddy</string>
+    <string name="boton_crear_cuenta">Crear cuenta</string>
+    <string name="boton_inicio_sesion">Iniciar sesión</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="ejemplo_contraseña">tu contraseña</string>
+    <string name="ejemplo_usuario">tu usuario</string>
+    <string name="nombre_usuario">Nombre de usuario</string>
+    <string name="texto_bienvenida1">Bienvenid@</string>
+    <string name="texto_bienvenida2">a BookBuddy!</string>
     <style name="Base.Theme.BookBuddy" parent="Theme.Material3.DayNight.NoActionBar">
         
         
