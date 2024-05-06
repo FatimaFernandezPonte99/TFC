@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">BookBuddy</string>
+    <string name="texto_bienvenida1">Bienvenid@</string>
+    <string name="texto_bienvenida2">a BookBuddy!</string>
+    <string name="nombre_usuario">Nombre de usuario</string>
+    <string name="ejemplo_usuario">tu usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="ejemplo_contraseña">tu contraseña</string>
+    <string name="boton_inicio_sesion">Iniciar sesión</string>
+    <string name="boton_crear_cuenta">Crear cuenta</string>
+    
 </resources>

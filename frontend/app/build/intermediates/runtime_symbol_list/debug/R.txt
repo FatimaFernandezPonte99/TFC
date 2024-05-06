@@ -1394,6 +1394,7 @@ int color error_color_material_dark 0x7f050058
 int color error_color_material_light 0x7f050059
 int color foreground_material_dark 0x7f05005a
 int color foreground_material_light 0x7f05005b
+int color gray 0x7f0502e6
 int color highlighted_text_material_dark 0x7f05005c
 int color highlighted_text_material_light 0x7f05005d
 int color m3_appbar_overlay_color 0x7f05005e
@@ -2900,6 +2901,7 @@ int drawable abc_textfield_search_material 0x7f070076
 int drawable abc_vector_test 0x7f070077
 int drawable avd_hide_password 0x7f070078
 int drawable avd_show_password 0x7f070079
+int drawable background_button_square 0x7f0700e0
 int drawable btn_checkbox_checked_mtrl 0x7f07007a
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f07007b
 int drawable btn_checkbox_unchecked_mtrl 0x7f07007c
@@ -2913,6 +2915,7 @@ int drawable design_ic_visibility 0x7f070083
 int drawable design_ic_visibility_off 0x7f070084
 int drawable design_password_eye 0x7f070085
 int drawable design_snackbar_background 0x7f070086
+int drawable fondo 0x7f0700df
 int drawable ic_arrow_back_black_24 0x7f070087
 int drawable ic_clear_black_24 0x7f070088
 int drawable ic_clock_black_24dp 0x7f070089
@@ -3094,6 +3097,8 @@ int id beginOnFirstDraw 0x7f080059
 int id beginning 0x7f08005a
 int id bestChoice 0x7f08005b
 int id blocking 0x7f08005c
+int id boton_iniciar_sesion 0x7f0801f4
+int id boton_registro 0x7f0801f5
 int id bottom 0x7f08005d
 int id bounce 0x7f08005e
 int id bounceBoth 0x7f08005f
@@ -3130,6 +3135,7 @@ int id content 0x7f08007d
 int id contentPanel 0x7f08007e
 int id contiguous 0x7f08007f
 int id continuousVelocity 0x7f080080
+int id contraseña 0x7f0801f2
 int id coordinator 0x7f080081
 int id cos 0x7f080082
 int id counterclockwise 0x7f080083
@@ -3311,6 +3317,7 @@ int id neverCompleteToEnd 0x7f080132
 int id neverCompleteToStart 0x7f080133
 int id noScroll 0x7f080134
 int id noState 0x7f080135
+int id nombre_usuario 0x7f0801f0
 int id none 0x7f080136
 int id normal 0x7f080137
 int id north 0x7f080138
@@ -3455,6 +3462,10 @@ int id textinput_helper_text 0x7f0801c2
 int id textinput_placeholder 0x7f0801c3
 int id textinput_prefix_text 0x7f0801c4
 int id textinput_suffix_text 0x7f0801c5
+int id texto_bienvenida1 0x7f0801ee
+int id texto_bienvenida2 0x7f0801ef
+int id texto_contraseña 0x7f0801f3
+int id texto_nombre_usuario 0x7f0801f1
 int id time 0x7f0801c6
 int id title 0x7f0801c7
 int id titleDividerNoCustom 0x7f0801c8
@@ -3718,6 +3729,8 @@ int string abc_toolbar_collapse_description 0x7f0f001a
 int string androidx_startup 0x7f0f001b
 int string app_name 0x7f0f001c
 int string appbar_scrolling_view_behavior 0x7f0f001d
+int string boton_crear_cuenta 0x7f0f00a6
+int string boton_inicio_sesion 0x7f0f00a7
 int string bottom_sheet_behavior 0x7f0f001e
 int string bottomsheet_action_collapse 0x7f0f001f
 int string bottomsheet_action_expand 0x7f0f0020
@@ -3728,6 +3741,9 @@ int string character_counter_content_description 0x7f0f0024
 int string character_counter_overflowed_content_description 0x7f0f0025
 int string character_counter_pattern 0x7f0f0026
 int string clear_text_end_icon_content_description 0x7f0f0027
+int string contraseña 0x7f0f009f
+int string ejemplo_contraseña 0x7f0f00a4
+int string ejemplo_usuario 0x7f0f00a5
 int string error_a11y_label 0x7f0f0028
 int string error_icon_content_description 0x7f0f0029
 int string exposed_dropdown_menu_content_description 0x7f0f002a
@@ -3835,6 +3851,7 @@ int string mtrl_switch_track_decoration_path 0x7f0f008f
 int string mtrl_switch_track_path 0x7f0f0090
 int string mtrl_timepicker_cancel 0x7f0f0091
 int string mtrl_timepicker_confirm 0x7f0f0092
+int string nombre_usuario 0x7f0f00a0
 int string password_toggle_content_description 0x7f0f0093
 int string path_password_eye 0x7f0f0094
 int string path_password_eye_mask_strike_through 0x7f0f0095
@@ -3847,6 +3864,8 @@ int string searchview_navigation_content_description 0x7f0f009b
 int string side_sheet_accessibility_pane_title 0x7f0f009c
 int string side_sheet_behavior 0x7f0f009d
 int string status_bar_notification_info_overflow 0x7f0f009e
+int string texto_bienvenida1 0x7f0f00a2
+int string texto_bienvenida2 0x7f0f00a3
 int style AlertDialog_AppCompat 0x7f100000
 int style AlertDialog_AppCompat_Light 0x7f100001
 int style Animation_AppCompat_Dialog 0x7f100002
