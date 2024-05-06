@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.BookBuddy" >
         <activity
+            android:name="com.example.bookbuddy.Menu"
+            android:exported="false" />
+        <activity
             android:name="com.example.bookbuddy.MainActivity"
             android:exported="true" >
             <intent-filter>

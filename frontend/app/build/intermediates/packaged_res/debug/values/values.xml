@@ -2,6 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="gray">#EAEAEA</color>
+    <color name="pink">#E274F1</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">BookBuddy</string>
     <string name="boton_crear_cuenta">Crear cuenta</string>
@@ -9,7 +10,11 @@
     <string name="contraseña">Contraseña</string>
     <string name="ejemplo_contraseña">tu contraseña</string>
     <string name="ejemplo_usuario">tu usuario</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inicio">Inicio</string>
     <string name="nombre_usuario">Nombre de usuario</string>
+    <string name="perfil">Perfil</string>
+    <string name="subir_libro">Subir Libro</string>
     <string name="texto_bienvenida1">Bienvenid@</string>
     <string name="texto_bienvenida2">a BookBuddy!</string>
     <style name="Base.Theme.BookBuddy" parent="Theme.Material3.DayNight.NoActionBar">

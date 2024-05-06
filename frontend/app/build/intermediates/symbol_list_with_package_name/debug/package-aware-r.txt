@@ -2023,6 +2023,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color pink
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2931,6 +2932,9 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable icono_inicio
+drawable icono_perfil
+drawable icono_subir_libro
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3101,6 +3105,7 @@ id blocking
 id boton_iniciar_sesion
 id boton_registro
 id bottom
+id bottomNavigation
 id bounce
 id bounceBoth
 id bounceEnd
@@ -3203,6 +3208,7 @@ id fixed
 id flip
 id floating
 id forever
+id fragmentContainer
 id fragment_container_view_tag
 id frost
 id fullscreen_header
@@ -3230,6 +3236,7 @@ id immediateStop
 id included
 id indeterminate
 id info
+id inicio
 id invisible
 id inward
 id italic
@@ -3342,6 +3349,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id perfil
 id pin
 id position
 id postLayout
@@ -3430,6 +3438,7 @@ id staticLayout
 id staticPostLayout
 id stop
 id stretch
+id subirlibro
 id submenuarrow
 id submit_area
 id supportScrollUp
@@ -3620,6 +3629,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_menu
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3636,6 +3646,9 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_inicio
+layout fragment_perfil
+layout fragment_subir_libro
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3697,6 +3710,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu bottom_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -3750,8 +3764,10 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string inicio
 string item_view_role_description
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -3858,6 +3874,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string perfil
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
@@ -3865,6 +3882,7 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string subir_libro
 string texto_bienvenida1
 string texto_bienvenida2
 style AlertDialog_AppCompat
