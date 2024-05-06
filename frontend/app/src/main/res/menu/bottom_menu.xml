@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/inicio"
+        android:title="@string/inicio"
+        android:icon="@drawable/icono_inicio" />
+
+    <item
+        android:id="@+id/subirlibro"
+        android:title="@string/subir_libro"
+        android:icon="@drawable/icono_subir_libro"/>
+
+    <item
+        android:id="@+id/perfil"
+        android:title="@string/perfil"
+        android:icon="@drawable/icono_perfil"/>
+
+</menu>
