@@ -57,7 +57,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/texto_contraseña"
+        android:id="@+id/texto_contrasena"
         android:text="@string/contraseña"
         app:layout_constraintTop_toBottomOf="@id/nombre_usuario"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,11 +67,11 @@
     <EditText
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:id="@+id/contraseña"
+        android:id="@+id/contrasena"
         android:hint="@string/ejemplo_contraseña"
         android:paddingStart="10dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/texto_contraseña"
+        app:layout_constraintTop_toBottomOf="@id/texto_contrasena"
         android:layout_marginStart="60dp"
         android:layout_marginTop="10dp"
         android:background="@color/white"
@@ -86,7 +86,7 @@
         android:backgroundTint="@color/black"
         android:text="@string/boton_inicio_sesion"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/contraseña" />
+        app:layout_constraintTop_toBottomOf="@id/contrasena" />
 
     <Button
         android:layout_width="300dp"

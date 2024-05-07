@@ -3102,7 +3102,9 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id boton_historial
 id boton_iniciar_sesion
+id boton_mod_perfil
 id boton_registro
 id bottom
 id bottomNavigation
@@ -3141,7 +3143,7 @@ id content
 id contentPanel
 id contiguous
 id continuousVelocity
-id contraseña
+id contrasena
 id coordinator
 id cos
 id counterclockwise
@@ -3474,12 +3476,13 @@ id textinput_prefix_text
 id textinput_suffix_text
 id texto_bienvenida1
 id texto_bienvenida2
-id texto_contraseña
+id texto_contrasena
 id texto_nombre_usuario
 id time
 id title
 id titleDividerNoCustom
 id title_template
+id titulo_perfil
 id toggle
 id top
 id topPanel
@@ -3766,6 +3769,7 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
+string historial
 string icon_content_description
 string inicio
 string item_view_role_description
@@ -3806,6 +3810,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string mod_perfil
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name

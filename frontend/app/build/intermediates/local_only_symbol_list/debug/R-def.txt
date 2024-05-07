@@ -11,10 +11,12 @@ drawable ic_launcher_foreground
 drawable icono_inicio
 drawable icono_perfil
 drawable icono_subir_libro
+id boton_historial
 id boton_iniciar_sesion
+id boton_mod_perfil
 id boton_registro
 id bottomNavigation
-id contraseña
+id contrasena
 id fragmentContainer
 id inicio
 id nombre_usuario
@@ -22,8 +24,9 @@ id perfil
 id subirlibro
 id texto_bienvenida1
 id texto_bienvenida2
-id texto_contraseña
+id texto_contrasena
 id texto_nombre_usuario
+id titulo_perfil
 layout activity_main
 layout activity_menu
 layout fragment_inicio
@@ -39,7 +42,9 @@ string contraseña
 string ejemplo_contraseña
 string ejemplo_usuario
 string hello_blank_fragment
+string historial
 string inicio
+string mod_perfil
 string nombre_usuario
 string perfil
 string subir_libro
