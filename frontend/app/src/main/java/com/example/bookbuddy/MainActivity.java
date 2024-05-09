@@ -20,6 +20,8 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.UnsupportedEncodingException;
+
 public class MainActivity extends AppCompatActivity {
     private final Context context = this;
     private EditText editTextUsername;
@@ -47,7 +49,17 @@ public class MainActivity extends AppCompatActivity {
         editTextUsername = findViewById(R.id.nombre_usuario);
         editTextPassword = findViewById(R.id.contrasena);
 
-        //REGISTRARTE LO HACES DESPUÉS
+        //Registro
+        botCrearCuenta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try{
+                   sendRegisterRequest();
+                }catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
 
         //Iniciar sesión
         botIniciarSesion.setOnClickListener(new View.OnClickListener() {
@@ -64,18 +76,9 @@ public class MainActivity extends AppCompatActivity {
 
         queue = Volley.newRequestQueue(context);
 
-
-
-        //PRUEBA
-        //botIniciarSesion.setOnClickListener(new View.OnClickListener() {
-          //  @Override
-            //public void onClick(View v) {
-              //  Intent intent = new Intent(MainActivity.this, Menu.class);
-                //startActivity(intent);
-            //}
-        //});
     }
 
+    //Método para iniciar sesión
     private void sendPostLogin() throws JSONException {
         //Aquí irían cosas de la progressbar pero no sé si lo voy a poner
 
@@ -130,4 +133,61 @@ public class MainActivity extends AppCompatActivity {
         //Añadimos la solicitud a la cola de Volley
         queue.add(request);
     }
+
+    //Método para el registro
+    private void sendRegisterRequest() throws  JSONException {
+        //Aquí irían cosas de la progressbar pero no sé si lo voy a poner
+
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("name", editTextUsername.getText().toString());
+        jsonObject.put("password", editTextPassword.getText().toString());
+
+        JsonObjectRequest petition = new JsonObjectRequest(
+                com.android.volley.Request.Method.POST,
+                Server.name + "/api/BookBuddy/session",
+                jsonObject,
+                new Response.Listener<JSONObject>() {
+                    @Override
+                    public void onResponse(JSONObject response) {
+                        Toast.makeText(MainActivity.this, "Registro exitoso!", Toast.LENGTH_LONG).show();
+                        Intent intent = new Intent(MainActivity.this, Menu.class);
+                        startActivity(intent);
+                        finish();
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        if (error.networkResponse != null) {
+                            String falloReg;
+
+                            try {
+                                String responseBody = new String(error.networkResponse.data, "utf-8");
+                                JSONObject data = new JSONObject(responseBody);
+                                falloReg = data.getString("error");
+                            }catch (JSONException e) {
+                                throw new RuntimeException(e);
+                            } catch (UnsupportedEncodingException e) {
+                                throw new RuntimeException(e);
+                            }
+
+                            //Si hay un código de error del servidor, se muestra en un toast
+                            Toast.makeText(MainActivity.this, falloReg, Toast.LENGTH_LONG).show();
+
+                        } else if (error instanceof com.android.volley.NoConnectionError) {
+                            //Si hay un problema estableciendo la conexión, se muestra en un Toast
+                            Toast.makeText(MainActivity.this, "Imposible conectar al servidor", Toast.LENGTH_LONG).show();
+
+                        } else {
+                            //Para cualquier otro error, se muestra un Toast genérico
+                            Toast.makeText(MainActivity.this, "Error en el registro", Toast.LENGTH_LONG).show();
+                        }
+                    }
+                }
+
+        );
+        //Añadimos la solicitud a la cola de Volley
+        queue.add(petition);
+    }
+
 }
