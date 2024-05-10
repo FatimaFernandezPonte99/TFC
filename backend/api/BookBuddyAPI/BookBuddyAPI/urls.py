@@ -29,5 +29,6 @@ urlpatterns = [
     path('api/BookBuddy/book_info/<book_id>', endpoints.book_info),
     path('api/BookBuddy/stand_info/<stand_id>', endpoints.stand_info),
     path('api/BookBuddy/stand_books/<stand_id>', endpoints.stand_books),
-    path('api/BookBuddy/exchanged_book/<book_id>', endpoints.exchanged_book)
+    path('api/BookBuddy/exchanged_book/<book_id>', endpoints.exchanged_book),
+    path('api/BookBuddy/stand_list', endpoints.stand_list)
 ]

@@ -5,14 +5,193 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/fondo">
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="FRAGMENT SUBIR LIBRO"
+        android:text="@string/subir_libro1"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:id="@+id/subirlibro1"
+        android:textColor="@color/black"
         />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subir_libro2"
+        app:layout_constraintTop_toBottomOf="@id/subirlibro1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/subirlibro2"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/puesto"
+        app:layout_constraintTop_toBottomOf="@id/subirlibro2"
+        android:id="@+id/puesto"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="340dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/puesto"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:background="@color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_del_libro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinner"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:textSize="15sp"
+        android:id="@+id/nombre_libro"/>
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:hint="@string/ej_nombre_libro"
+        app:layout_constraintTop_toBottomOf="@id/nombre_libro"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        android:id="@+id/texto_nombre_libro"
+        android:background="@color/white"
+        android:layout_marginTop="5dp"
+        android:paddingStart="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/autor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/texto_nombre_libro"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:textSize="15sp"
+        android:id="@+id/autor"/>
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:hint="@string/ej_autor"
+        app:layout_constraintTop_toBottomOf="@id/autor"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        android:id="@+id/texto_autor"
+        android:background="@color/white"
+        android:layout_marginTop="5dp"
+        android:paddingStart="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editorial"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/texto_autor"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:textSize="15sp"
+        android:id="@+id/editorial"/>
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:hint="@string/ej_editorial"
+        app:layout_constraintTop_toBottomOf="@id/editorial"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        android:background="@color/white"
+        android:layout_marginTop="5dp"
+        android:paddingStart="10dp"
+        android:id="@+id/texto_editorial"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resena"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/texto_editorial"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:textSize="15sp"
+        android:id="@+id/resena"/>
+
+    <EditText
+        android:id="@+id/texto_resena"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:hint="@string/ej_resena"
+        android:inputType="textMultiLine"
+        app:layout_constraintTop_toBottomOf="@id/resena"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        android:background="@color/white"
+        android:layout_marginTop="5dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:gravity="top"
+        />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paginas"
+        app:layout_constraintTop_toBottomOf="@id/texto_resena"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:textSize="15sp"
+        android:id="@+id/paginas"/>
+    
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/paginas"
+        app:layout_constraintStart_toStartOf="parent"
+        android:hint="@string/ej_paginas"
+        android:layout_marginStart="30dp"
+        android:background="@color/white"
+        android:paddingStart="10dp"
+        android:id="@+id/texto_paginas"/>
+
+     <Button
+         android:layout_width="300dp"
+         android:layout_height="60dp"
+         android:backgroundTint="@color/black"
+         app:layout_constraintTop_toBottomOf="@+id/texto_paginas"
+         app:layout_constraintStart_toStartOf="parent"
+         android:layout_marginTop="30dp"
+         android:layout_marginStart="50dp"
+         android:text="@string/subir_libro"
+         android:id="@+id/boton_subir_libro"
+         />
+
+
+
+
+
+
+
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,6 +14,11 @@ class Stand(models.Model):
     name = models.CharField(max_length=50, null=False, unique=True)
     address = models.CharField(max_length=250, null=False, unique=True)
 
+    def to_json(self):
+        return {
+            "name": self.name
+        }
+
 
 class Book(models.Model):
     title = models.CharField(max_length=100, null=False)

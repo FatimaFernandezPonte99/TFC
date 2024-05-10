@@ -289,3 +289,10 @@ def exchanged_book(request, book_id):
     else:
         return  JsonResponse({'error': 'Invalid HTTP method'}, status=405)
 
+
+#PRUEBA
+def stand_list(request):
+    if request.method == 'GET':
+        stands = Stand.objects.all().values_list('name', flat=True)
+        return JsonResponse(list(stands), safe=False)
+
