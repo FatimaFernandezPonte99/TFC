@@ -12,6 +12,7 @@ drawable ic_launcher_foreground
 drawable icono_inicio
 drawable icono_perfil
 drawable icono_subir_libro
+id addressTextView
 id autor
 id bot_confirmar_cambios
 id boton_cerrar_sesion
@@ -24,7 +25,9 @@ id bottomNavigation
 id contrasena
 id editorial
 id fragmentContainer
+id infoButton
 id inicio
+id map
 id nombre_libro
 id nombre_usuario
 id paginas
@@ -48,12 +51,18 @@ id texto_nuevo_nombre_usuario
 id texto_nuevo_pais
 id texto_paginas
 id texto_resena
+id titleTextView
 id titulo_modificar_perfil
 id titulo_perfil
+id zoom_in
+id zoom_out
 layout activity_main
 layout activity_menu
+layout custom_info_window
 layout fragment_historial_libros_subidos
 layout fragment_inicio
+layout fragment_libros_disponibles_puesto
+layout fragment_maps
 layout fragment_mod_perfil
 layout fragment_perfil
 layout fragment_subir_libro
@@ -78,6 +87,7 @@ string ejemplo_usuario
 string hello_blank_fragment
 string historial
 string inicio
+string libros_disponibles_puesto
 string mod_perfil
 string nombre_del_libro
 string nombre_usuario
@@ -94,6 +104,8 @@ string subir_libro1
 string subir_libro2
 string texto_bienvenida1
 string texto_bienvenida2
+string zoom_in
+string zoom_out
 style Base.Theme.BookBuddy
 style Theme.BookBuddy
 xml backup_rules

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.bookbuddy.app-mergeDebugResources-26:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "com.example.bookbuddy.app-mergeDebugResources-30:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\FatimaWork\\.gradle\\caches\\transforms-3\\a43aafed36de94ddbd54fecba4515b53\\transformed\\material-1.9.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\FatimaWork\\.gradle\\caches\\transforms-3\\849eb374dcf01bb327fecf716a8c1edb\\transformed\\material-1.9.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

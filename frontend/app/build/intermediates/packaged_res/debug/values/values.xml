@@ -31,6 +31,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="historial">Historial de libros subidos</string>
     <string name="inicio">Inicio</string>
+    <string name="libros_disponibles_puesto">Ver libros disponibles</string>
     <string name="mod_perfil">Modificar perfil</string>
     <string name="nombre_del_libro">Nombre del libro</string>
     <string name="nombre_usuario">Nombre de usuario</string>
@@ -47,6 +48,8 @@
     <string name="subir_libro2">¡Dale una nueva vida!</string>
     <string name="texto_bienvenida1">Bienvenid@</string>
     <string name="texto_bienvenida2">a BookBuddy!</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
     <style name="Base.Theme.BookBuddy" parent="Theme.Material3.DayNight.NoActionBar">
         
         

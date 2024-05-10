@@ -20,7 +20,7 @@ public class Menu extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
 
         //Ponemos de principal el fragment Inicio
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new Inicio()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new MapsFragment()).commit();
 
         BottomNavigationView bar = findViewById(R.id.bottomNavigation);
 
@@ -29,7 +29,7 @@ public class Menu extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 if (item.getItemId() == R.id.inicio) {
-                    Fragment myFragment = new Inicio();
+                    Fragment myFragment = new MapsFragment();
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, myFragment).commit();
                 }
 

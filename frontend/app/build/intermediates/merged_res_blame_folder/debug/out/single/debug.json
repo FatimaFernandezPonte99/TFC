@@ -1,122 +1,134 @@
 [
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.bookbuddy.app-merged_res-28:/layout_fragment_mod_perfil.xml.flat",
-        "source": "com.example.bookbuddy.app-main-30:/layout/fragment_mod_perfil.xml"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\layout_activity_menu.xml.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\layout\\activity_menu.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\drawable_icono_inicio.png.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\drawable\\icono_inicio.png"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\layout_activity_menu.xml.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\layout\\activity_menu.xml"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\layout_fragment_subir_libro.xml.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\layout\\fragment_subir_libro.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\drawable_icono_perfil.png.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\drawable\\icono_perfil.png"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\drawable_icono_subir_libro.png.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\drawable\\icono_subir_libro.png"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\drawable_background_button_square.xml.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\drawable\\background_button_square.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\layout_fragment_historial_libros_subidos.xml.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\layout\\fragment_historial_libros_subidos.xml"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\drawable_background_button_square.xml.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\drawable\\background_button_square.xml"
+        "merged": "com.example.bookbuddy.app-merged_res-32:/layout_fragment_maps.xml.flat",
+        "source": "com.example.bookbuddy.app-main-34:/layout/fragment_maps.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\drawable_icono_subir_libro.png.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\drawable\\icono_subir_libro.png"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\layout_fragment_mod_perfil.xml.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\layout\\fragment_mod_perfil.xml"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\layout_fragment_historial_libros_subidos.xml.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\layout\\fragment_historial_libros_subidos.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\layout_fragment_perfil.xml.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\layout\\fragment_perfil.xml"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\menu_bottom_menu.xml.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\menu\\bottom_menu.xml"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\layout_fragment_maps.xml.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\layout\\fragment_maps.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\layout_fragment_perfil.xml.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\layout\\fragment_perfil.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.bookbuddy.app-merged_res-32:/layout_fragment_libros_disponibles_puesto.xml.flat",
+        "source": "com.example.bookbuddy.app-main-34:/layout/fragment_libros_disponibles_puesto.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\drawable_fondo.png.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\drawable\\fondo.png"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\menu_bottom_menu.xml.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\menu\\bottom_menu.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\layout_fragment_subir_libro.xml.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\layout\\fragment_subir_libro.xml"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\layout_custom_info_window.xml.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\layout\\custom_info_window.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\layout_fragment_inicio.xml.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\layout\\fragment_inicio.xml"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\drawable_icono_perfil.png.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\drawable\\icono_perfil.png"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\layout_fragment_mod_perfil.xml.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\layout\\fragment_mod_perfil.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\drawable_fondo.png.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\drawable\\fondo.png"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\layout_fragment_inicio.xml.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\layout\\fragment_inicio.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-30:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\drawable_icono_inicio.png.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\drawable\\icono_inicio.png"
+    },
+    {
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-merged_res-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\FatimaWork\\.gradle\\daemon\\8.2\\com.example.bookbuddy.app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
     }
 ]
