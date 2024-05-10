@@ -1,22 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="stands">
+        <item>Puesto Calle San Andrés</item>
+        <item>Puesto Calle Real</item>
+        <item>Puesto Los Mallos</item>
+        <item>Puesto Elviña</item>
+        <item>Puesto Monte Alto</item>
+        <item>Puesto Espacio Coruña</item>
+        <item>Puesto Matogrande</item>
+    </string-array>
     <color name="black">#FF000000</color>
     <color name="gray">#EAEAEA</color>
     <color name="pink">#E274F1</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="actualizar_perfil">Actualizar el perfil</string>
     <string name="app_name">BookBuddy</string>
+    <string name="autor">Autor</string>
     <string name="boton_crear_cuenta">Crear cuenta</string>
     <string name="boton_inicio_sesion">Iniciar sesión</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
     <string name="contraseña">Contraseña</string>
+    <string name="editorial">Editorial</string>
+    <string name="ej_autor">Ej. Gabriel García Márquez</string>
+    <string name="ej_editorial">Ej. Editorial Planeta</string>
+    <string name="ej_nombre_libro">Ej. El amor en los tiempos del cólera</string>
+    <string name="ej_paginas">Ej. 496</string>
+    <string name="ej_resena">Ej. Me ha gustado mucho, pero...</string>
     <string name="ejemplo_contraseña">tu contraseña</string>
     <string name="ejemplo_usuario">tu usuario</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="historial">Historial de libros subidos</string>
     <string name="inicio">Inicio</string>
     <string name="mod_perfil">Modificar perfil</string>
+    <string name="nombre_del_libro">Nombre del libro</string>
     <string name="nombre_usuario">Nombre de usuario</string>
+    <string name="nueva_contrasena">Introduce una nueva contraseña</string>
+    <string name="nuevo_nombre_usuario">Introduce un nuevo nombre de usuario</string>
+    <string name="nuevo_pais">Introduce un nuevo pais</string>
+    <string name="paginas">Nº de páginas</string>
+    <string name="pais">Pais</string>
     <string name="perfil">Perfil</string>
+    <string name="puesto">Puesto</string>
+    <string name="resena">Breve reseña (máx 500 caracteres)</string>
     <string name="subir_libro">Subir Libro</string>
+    <string name="subir_libro1">¿Planeas subir un libro?</string>
+    <string name="subir_libro2">¡Dale una nueva vida!</string>
     <string name="texto_bienvenida1">Bienvenid@</string>
     <string name="texto_bienvenida2">a BookBuddy!</string>
     <style name="Base.Theme.BookBuddy" parent="Theme.Material3.DayNight.NoActionBar">

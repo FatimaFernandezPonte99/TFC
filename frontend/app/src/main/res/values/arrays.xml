@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stands">
+        <item>Puesto Calle San Andrés</item>
+        <item>Puesto Calle Real</item>
+        <item>Puesto Los Mallos</item>
+        <item>Puesto Elviña</item>
+        <item>Puesto Monte Alto</item>
+        <item>Puesto Espacio Coruña</item>
+        <item>Puesto Matogrande</item>
+    </string-array>
+</resources>

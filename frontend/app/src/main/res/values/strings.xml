@@ -13,6 +13,25 @@
     <string name="perfil">Perfil</string>
     <string name="mod_perfil">Modificar perfil</string>
     <string name="historial">Historial de libros subidos</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="subir_libro1">¿Planeas subir un libro?</string>
+    <string name="subir_libro2">¡Dale una nueva vida!</string>
+    <string name="nombre_del_libro">Nombre del libro</string>
+    <string name="autor">Autor</string>
+    <string name="editorial">Editorial</string>
+    <string name="resena">Breve reseña (máx 500 caracteres)</string>
+    <string name="paginas">Nº de páginas</string>
+    <string name="ej_nombre_libro">Ej. El amor en los tiempos del cólera</string>
+    <string name="ej_autor">Ej. Gabriel García Márquez</string>
+    <string name="ej_editorial">Ej. Editorial Planeta</string>
+    <string name="ej_resena">Ej. Me ha gustado mucho, pero...</string>
+    <string name="ej_paginas">Ej. 496</string>
+    <string name="puesto">Puesto</string>
+    <string name="nuevo_nombre_usuario">Introduce un nuevo nombre de usuario</string>
+    <string name="nueva_contrasena">Introduce una nueva contraseña</string>
+    <string name="nuevo_pais">Introduce un nuevo pais</string>
+    <string name="pais">Pais</string>
+    <string name="actualizar_perfil">Actualizar el perfil</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
