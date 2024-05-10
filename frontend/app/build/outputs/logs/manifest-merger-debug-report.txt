@@ -1,50 +1,56 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:2:1-33:12
-MERGED from [com.google.android.material:material:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a43aafed36de94ddbd54fecba4515b53\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\FatimaWork\.gradle\caches\transforms-3\2a6e68506650abc6faf7ed06ed00b784\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\306ded7b38c7bfba460aa9647dc0f275\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\cae0069d1585611eb98b1d4f16fa8d6e\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.volley:volley:1.2.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\e4eced5a84fa0e5c45f85a5080d1e7df\transformed\volley-1.2.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\3074b719aa2e040cceaeb94915000345\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\FatimaWork\.gradle\caches\transforms-3\664a873287342ea5ff0367024e8e7bc6\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.6.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\dfaeb7491e1ebcbffa84a19e328ba806\transformed\activity-1.6.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\56ad579bf196c975ae19b8d14adca6ce\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\3d18db9aaeeeb1e9947b4e4d293b8148\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6c9758e9d373e8d44839b8188466a901\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\bff45995fc81d8d1da8766b8dbaccb45\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e943a330bb2125a04cdbc7aad1646000\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\62dcee7c7e4f18fabbd1a297daebdffc\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\6c10bcaefa43f1993f5c0984b90b7437\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a3fb67cbed9f74bf87397a98794befb8\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\9e925170ce79534563c886f72005d8fa\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\6813680c76760cfb138c8480992274ae\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\f9e5b043177f56b839732bf4a12ee768\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\fa435252f6be87dd656c118c324ea9fb\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\39b5bc0ce255cf154ab32745241e0156\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\42b0aefa796649f8595538d1012aceff\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\086aa7f908c3031da02a68e7a607a4d1\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\35c1ef71937ca787f5127f13fa27a0c1\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\87f22283ee55c8414d476f8251d5c8dc\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f3c337599fc1ebe6eaee4513f607fd6c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\c671c9183374d2479815c4649bb40e2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b4398be27ae72a96c7a58dd9a1e2abe\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\997b63eedbd1a6f50da4cc4fe77ebfb8\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\bb270d931bc906f26b9affeaac74e9af\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\863119b99389bbbfba7556cade308147\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a5d294ec911d6b062d50bcb2fa8232da\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\5d0b32f66a3d9173ebc5c550289fd746\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\dc99d4e9087c12e363577824daf6f64c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\dd6a52a28a706509624e4de6a54da26f\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\26dc3340b9abd3714d2487ce967c616d\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a5865a77cb54859069a9e2cac6cc4649\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\5cce9525167c71c9f1432818c37e028b\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\5095f8b814222f33cb60e62fe0ea5929\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\1b2fcfbcc9deb0b26ec89e0f32b817ac\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\77660fa7dce3f77235db1b1d34b10103\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:2:1-51:12
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\849eb374dcf01bb327fecf716a8c1edb\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\FatimaWork\.gradle\caches\transforms-3\656881fb8df59670aa6064cbf1421ccb\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\2f85d943ded04adcb39dc8491a5da90d\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\5c0eaef334778980de736edceb4db71b\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\36dc6959fec414c4df06355cf7bb8629\transformed\volley-1.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\b615ecee6682db0197427d8d12d8971d\transformed\play-services-location-21.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.maps.android:android-maps-utils:2.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e652a1c3f6a45c9c04053eef3e7a79a5\transformed\android-maps-utils-2.3.0\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:17:1-44:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a1e12c1fa2a2711a90c83a6b644f7da4\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f79c03d4776bb7c7ffd4a92afbcd20dc\transformed\play-services-base-18.3.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\989e48f653239de0a78f869e3ccd5c71\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7f62444fcbfdfc91c464ea0d7978220a\transformed\play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\FatimaWork\.gradle\caches\transforms-3\84a018d5496541422fdc71daa8ccf329\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a387291bdba02da98cde01994e98b542\transformed\activity-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\31ceada9057f62cb5b970b09471302ee\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\3dfe55a9f06d9cfab2350914e11c4d72\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\0a890486352f37577debfa89a9603718\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2107260f2a82b141fd1c24b4d44c77a9\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\d53ae28d17e8e05fb89064f7496f2f69\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\78e30a6337881c23846d7d3d18a11b3e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a604fa3b9fa8f5565f7145ec0924b63b\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e42e8ba143c2f111678acaace407b9ae\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7faf34490e1233bbc126881c7d126dd6\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\3f4e20d28d66b6fa3c7ccd4de9624243\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\7f34a83f17d59a6c5b2f7f52662be509\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\6dfd651108dbb94320ce2d3895b265a2\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\afaa18db4b8ab911fb95fe79555effde\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\1643bc6a5b944ce50edcda37a02e5a56\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\dd6867f131db43c6a995dd6373129eb8\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7e2caf4d3eca489887fc649928998d0b\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\0867142eabbe56bd7e82d50c97ecf20f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6986e472deb2035f786e355511303182\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\bdd309b8ad39a598ac45979da7957f72\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\18de59aad48fb5819289e0725c76c3dd\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\91c61ec95303a39a45e6c74080ec112e\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\692b90d89ded83430bfe9fc99e9cbf57\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f78bdbb16c5e474bff0fbc263eb2e2f6\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\97792e577648244e29b68781fe6ec04b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\ad438acd8eada3d27043833ab96d6bdc\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\ff63bcb047195877d699b3147c336457\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\ca92c1af3a1be14beee4444087e75b44\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\5f5853801c99b54fab71af82813bdb3c\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\5d8d436405984d6a90377fdbed0f39d9\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\ab6922e7ea89e8232bbeee7930572dd7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4dc288d4ffd0c56bb92aabeb89ee2a2f\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f2cbcf51bd4cb3e5d1f6c7a14f0ff5cd\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 	package
 		INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -56,209 +62,285 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\FatimaW
 	xmlns:android
 		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:5:5-66
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:6:5-78
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
 	android:name
 		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:8:22-78
 application
-ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:8:5-31:19
-INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:8:5-31:19
-MERGED from [com.google.android.material:material:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a43aafed36de94ddbd54fecba4515b53\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.material:material:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a43aafed36de94ddbd54fecba4515b53\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\FatimaWork\.gradle\caches\transforms-3\2a6e68506650abc6faf7ed06ed00b784\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\FatimaWork\.gradle\caches\transforms-3\2a6e68506650abc6faf7ed06ed00b784\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\3d18db9aaeeeb1e9947b4e4d293b8148\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\3d18db9aaeeeb1e9947b4e4d293b8148\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\87f22283ee55c8414d476f8251d5c8dc\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\87f22283ee55c8414d476f8251d5c8dc\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\c671c9183374d2479815c4649bb40e2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\c671c9183374d2479815c4649bb40e2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\863119b99389bbbfba7556cade308147\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\863119b99389bbbfba7556cade308147\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\5d0b32f66a3d9173ebc5c550289fd746\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\5d0b32f66a3d9173ebc5c550289fd746\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:10:5-49:19
+INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:10:5-49:19
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\849eb374dcf01bb327fecf716a8c1edb\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\849eb374dcf01bb327fecf716a8c1edb\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\FatimaWork\.gradle\caches\transforms-3\656881fb8df59670aa6064cbf1421ccb\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\FatimaWork\.gradle\caches\transforms-3\656881fb8df59670aa6064cbf1421ccb\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\b615ecee6682db0197427d8d12d8971d\transformed\play-services-location-21.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\b615ecee6682db0197427d8d12d8971d\transformed\play-services-location-21.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.maps.android:android-maps-utils:2.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e652a1c3f6a45c9c04053eef3e7a79a5\transformed\android-maps-utils-2.3.0\AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.maps.android:android-maps-utils:2.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e652a1c3f6a45c9c04053eef3e7a79a5\transformed\android-maps-utils-2.3.0\AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f79c03d4776bb7c7ffd4a92afbcd20dc\transformed\play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f79c03d4776bb7c7ffd4a92afbcd20dc\transformed\play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\989e48f653239de0a78f869e3ccd5c71\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\989e48f653239de0a78f869e3ccd5c71\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7f62444fcbfdfc91c464ea0d7978220a\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7f62444fcbfdfc91c464ea0d7978220a\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7e2caf4d3eca489887fc649928998d0b\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7e2caf4d3eca489887fc649928998d0b\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6986e472deb2035f786e355511303182\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6986e472deb2035f786e355511303182\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\692b90d89ded83430bfe9fc99e9cbf57\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\692b90d89ded83430bfe9fc99e9cbf57\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\97792e577648244e29b68781fe6ec04b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\97792e577648244e29b68781fe6ec04b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
 		INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\87f22283ee55c8414d476f8251d5c8dc\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7e2caf4d3eca489887fc649928998d0b\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:15:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:13:9-54
 	android:roundIcon
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:16:9-54
 	tools:targetApi
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:18:9-29
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:20:9-29
 	android:icon
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:17:9-47
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:18:9-47
 	android:dataExtractionRules
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:11:9-65
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:12:9-65
 	android:usesCleartextTraffic
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:9:9-44
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:19:9-44
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:33:9-35:71
+	android:value
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:35:13-68
+	android:name
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:34:13-58
 activity#com.example.bookbuddy.Menu
-ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:19:9-21:40
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:37:9-39:40
 	android:exported
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:21:13-37
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:20:13-33
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:38:13-33
 activity#com.example.bookbuddy.MainActivity
-ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:22:9-30:20
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:40:9-48:20
 	android:exported
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:24:13-36
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:42:13-36
 	android:name
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:23:13-41
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:41:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:43:13-47:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:44:17-69
 	android:name
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:44:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:46:17-77
 	android:name
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:46:27-74
 uses-sdk
 INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a43aafed36de94ddbd54fecba4515b53\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a43aafed36de94ddbd54fecba4515b53\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\FatimaWork\.gradle\caches\transforms-3\2a6e68506650abc6faf7ed06ed00b784\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\FatimaWork\.gradle\caches\transforms-3\2a6e68506650abc6faf7ed06ed00b784\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\306ded7b38c7bfba460aa9647dc0f275\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\306ded7b38c7bfba460aa9647dc0f275\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\cae0069d1585611eb98b1d4f16fa8d6e\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\cae0069d1585611eb98b1d4f16fa8d6e\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.volley:volley:1.2.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\e4eced5a84fa0e5c45f85a5080d1e7df\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
-MERGED from [com.android.volley:volley:1.2.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\e4eced5a84fa0e5c45f85a5080d1e7df\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\3074b719aa2e040cceaeb94915000345\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\3074b719aa2e040cceaeb94915000345\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\FatimaWork\.gradle\caches\transforms-3\664a873287342ea5ff0367024e8e7bc6\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\FatimaWork\.gradle\caches\transforms-3\664a873287342ea5ff0367024e8e7bc6\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.6.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\dfaeb7491e1ebcbffa84a19e328ba806\transformed\activity-1.6.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.6.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\dfaeb7491e1ebcbffa84a19e328ba806\transformed\activity-1.6.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\56ad579bf196c975ae19b8d14adca6ce\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\56ad579bf196c975ae19b8d14adca6ce\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\3d18db9aaeeeb1e9947b4e4d293b8148\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\3d18db9aaeeeb1e9947b4e4d293b8148\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6c9758e9d373e8d44839b8188466a901\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6c9758e9d373e8d44839b8188466a901\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\bff45995fc81d8d1da8766b8dbaccb45\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\bff45995fc81d8d1da8766b8dbaccb45\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e943a330bb2125a04cdbc7aad1646000\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e943a330bb2125a04cdbc7aad1646000\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\62dcee7c7e4f18fabbd1a297daebdffc\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\62dcee7c7e4f18fabbd1a297daebdffc\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\6c10bcaefa43f1993f5c0984b90b7437\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\6c10bcaefa43f1993f5c0984b90b7437\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a3fb67cbed9f74bf87397a98794befb8\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a3fb67cbed9f74bf87397a98794befb8\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\9e925170ce79534563c886f72005d8fa\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\9e925170ce79534563c886f72005d8fa\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\6813680c76760cfb138c8480992274ae\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\6813680c76760cfb138c8480992274ae\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\f9e5b043177f56b839732bf4a12ee768\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\f9e5b043177f56b839732bf4a12ee768\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\fa435252f6be87dd656c118c324ea9fb\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\fa435252f6be87dd656c118c324ea9fb\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\39b5bc0ce255cf154ab32745241e0156\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\39b5bc0ce255cf154ab32745241e0156\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\42b0aefa796649f8595538d1012aceff\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\42b0aefa796649f8595538d1012aceff\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\086aa7f908c3031da02a68e7a607a4d1\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\086aa7f908c3031da02a68e7a607a4d1\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\35c1ef71937ca787f5127f13fa27a0c1\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\35c1ef71937ca787f5127f13fa27a0c1\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\87f22283ee55c8414d476f8251d5c8dc\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\87f22283ee55c8414d476f8251d5c8dc\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f3c337599fc1ebe6eaee4513f607fd6c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f3c337599fc1ebe6eaee4513f607fd6c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\c671c9183374d2479815c4649bb40e2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\c671c9183374d2479815c4649bb40e2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b4398be27ae72a96c7a58dd9a1e2abe\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b4398be27ae72a96c7a58dd9a1e2abe\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\997b63eedbd1a6f50da4cc4fe77ebfb8\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\997b63eedbd1a6f50da4cc4fe77ebfb8\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\bb270d931bc906f26b9affeaac74e9af\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\bb270d931bc906f26b9affeaac74e9af\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\863119b99389bbbfba7556cade308147\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\863119b99389bbbfba7556cade308147\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a5d294ec911d6b062d50bcb2fa8232da\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a5d294ec911d6b062d50bcb2fa8232da\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\5d0b32f66a3d9173ebc5c550289fd746\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\5d0b32f66a3d9173ebc5c550289fd746\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\dc99d4e9087c12e363577824daf6f64c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\dc99d4e9087c12e363577824daf6f64c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\dd6a52a28a706509624e4de6a54da26f\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\dd6a52a28a706509624e4de6a54da26f\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\26dc3340b9abd3714d2487ce967c616d\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\26dc3340b9abd3714d2487ce967c616d\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a5865a77cb54859069a9e2cac6cc4649\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a5865a77cb54859069a9e2cac6cc4649\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\5cce9525167c71c9f1432818c37e028b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\5cce9525167c71c9f1432818c37e028b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\5095f8b814222f33cb60e62fe0ea5929\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\5095f8b814222f33cb60e62fe0ea5929\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\1b2fcfbcc9deb0b26ec89e0f32b817ac\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\1b2fcfbcc9deb0b26ec89e0f32b817ac\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\77660fa7dce3f77235db1b1d34b10103\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\77660fa7dce3f77235db1b1d34b10103\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\849eb374dcf01bb327fecf716a8c1edb\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\849eb374dcf01bb327fecf716a8c1edb\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\FatimaWork\.gradle\caches\transforms-3\656881fb8df59670aa6064cbf1421ccb\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\FatimaWork\.gradle\caches\transforms-3\656881fb8df59670aa6064cbf1421ccb\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\2f85d943ded04adcb39dc8491a5da90d\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\2f85d943ded04adcb39dc8491a5da90d\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\5c0eaef334778980de736edceb4db71b\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\5c0eaef334778980de736edceb4db71b\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\36dc6959fec414c4df06355cf7bb8629\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\36dc6959fec414c4df06355cf7bb8629\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\b615ecee6682db0197427d8d12d8971d\transformed\play-services-location-21.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\b615ecee6682db0197427d8d12d8971d\transformed\play-services-location-21.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:2.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e652a1c3f6a45c9c04053eef3e7a79a5\transformed\android-maps-utils-2.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.maps.android:android-maps-utils:2.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e652a1c3f6a45c9c04053eef3e7a79a5\transformed\android-maps-utils-2.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a1e12c1fa2a2711a90c83a6b644f7da4\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a1e12c1fa2a2711a90c83a6b644f7da4\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f79c03d4776bb7c7ffd4a92afbcd20dc\transformed\play-services-base-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f79c03d4776bb7c7ffd4a92afbcd20dc\transformed\play-services-base-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\989e48f653239de0a78f869e3ccd5c71\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\989e48f653239de0a78f869e3ccd5c71\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7f62444fcbfdfc91c464ea0d7978220a\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7f62444fcbfdfc91c464ea0d7978220a\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\FatimaWork\.gradle\caches\transforms-3\84a018d5496541422fdc71daa8ccf329\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\FatimaWork\.gradle\caches\transforms-3\84a018d5496541422fdc71daa8ccf329\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a387291bdba02da98cde01994e98b542\transformed\activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a387291bdba02da98cde01994e98b542\transformed\activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\31ceada9057f62cb5b970b09471302ee\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\31ceada9057f62cb5b970b09471302ee\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\3dfe55a9f06d9cfab2350914e11c4d72\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\3dfe55a9f06d9cfab2350914e11c4d72\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\0a890486352f37577debfa89a9603718\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\0a890486352f37577debfa89a9603718\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2107260f2a82b141fd1c24b4d44c77a9\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2107260f2a82b141fd1c24b4d44c77a9\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\d53ae28d17e8e05fb89064f7496f2f69\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\d53ae28d17e8e05fb89064f7496f2f69\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\78e30a6337881c23846d7d3d18a11b3e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\78e30a6337881c23846d7d3d18a11b3e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a604fa3b9fa8f5565f7145ec0924b63b\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\a604fa3b9fa8f5565f7145ec0924b63b\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e42e8ba143c2f111678acaace407b9ae\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e42e8ba143c2f111678acaace407b9ae\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7faf34490e1233bbc126881c7d126dd6\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7faf34490e1233bbc126881c7d126dd6\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\3f4e20d28d66b6fa3c7ccd4de9624243\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\3f4e20d28d66b6fa3c7ccd4de9624243\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\7f34a83f17d59a6c5b2f7f52662be509\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\7f34a83f17d59a6c5b2f7f52662be509\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\6dfd651108dbb94320ce2d3895b265a2\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\6dfd651108dbb94320ce2d3895b265a2\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\afaa18db4b8ab911fb95fe79555effde\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\afaa18db4b8ab911fb95fe79555effde\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\1643bc6a5b944ce50edcda37a02e5a56\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\1643bc6a5b944ce50edcda37a02e5a56\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\dd6867f131db43c6a995dd6373129eb8\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\dd6867f131db43c6a995dd6373129eb8\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7e2caf4d3eca489887fc649928998d0b\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7e2caf4d3eca489887fc649928998d0b\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\0867142eabbe56bd7e82d50c97ecf20f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\0867142eabbe56bd7e82d50c97ecf20f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6986e472deb2035f786e355511303182\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6986e472deb2035f786e355511303182\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\bdd309b8ad39a598ac45979da7957f72\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\bdd309b8ad39a598ac45979da7957f72\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\18de59aad48fb5819289e0725c76c3dd\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\18de59aad48fb5819289e0725c76c3dd\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\91c61ec95303a39a45e6c74080ec112e\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\91c61ec95303a39a45e6c74080ec112e\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\692b90d89ded83430bfe9fc99e9cbf57\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\692b90d89ded83430bfe9fc99e9cbf57\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f78bdbb16c5e474bff0fbc263eb2e2f6\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f78bdbb16c5e474bff0fbc263eb2e2f6\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\97792e577648244e29b68781fe6ec04b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\97792e577648244e29b68781fe6ec04b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\ad438acd8eada3d27043833ab96d6bdc\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\ad438acd8eada3d27043833ab96d6bdc\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\ff63bcb047195877d699b3147c336457\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\ff63bcb047195877d699b3147c336457\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\ca92c1af3a1be14beee4444087e75b44\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\ca92c1af3a1be14beee4444087e75b44\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\5f5853801c99b54fab71af82813bdb3c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\5f5853801c99b54fab71af82813bdb3c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\5d8d436405984d6a90377fdbed0f39d9\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\5d8d436405984d6a90377fdbed0f39d9\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\ab6922e7ea89e8232bbeee7930572dd7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\ab6922e7ea89e8232bbeee7930572dd7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4dc288d4ffd0c56bb92aabeb89ee2a2f\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4dc288d4ffd0c56bb92aabeb89ee2a2f\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f2cbcf51bd4cb3e5d1f6c7a14f0ff5cd\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f2cbcf51bd4cb3e5d1f6c7a14f0ff5cd\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
 		INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\3d18db9aaeeeb1e9947b4e4d293b8148\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\c671c9183374d2479815c4649bb40e2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\c671c9183374d2479815c4649bb40e2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\863119b99389bbbfba7556cade308147\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\863119b99389bbbfba7556cade308147\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\3d18db9aaeeeb1e9947b4e4d293b8148\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
-	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\3d18db9aaeeeb1e9947b4e4d293b8148\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:2.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e652a1c3f6a45c9c04053eef3e7a79a5\transformed\android-maps-utils-2.3.0\AndroidManifest.xml:10:9-12:69
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7f62444fcbfdfc91c464ea0d7978220a\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7f62444fcbfdfc91c464ea0d7978220a\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:2.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e652a1c3f6a45c9c04053eef3e7a79a5\transformed\android-maps-utils-2.3.0\AndroidManifest.xml:12:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:2.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e652a1c3f6a45c9c04053eef3e7a79a5\transformed\android-maps-utils-2.3.0\AndroidManifest.xml:11:13-58
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f79c03d4776bb7c7ffd4a92afbcd20dc\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\3d18db9aaeeeb1e9947b4e4d293b8148\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f79c03d4776bb7c7ffd4a92afbcd20dc\transformed\play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f79c03d4776bb7c7ffd4a92afbcd20dc\transformed\play-services-base-18.3.0\AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\3d18db9aaeeeb1e9947b4e4d293b8148\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f79c03d4776bb7c7ffd4a92afbcd20dc\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6986e472deb2035f786e355511303182\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6986e472deb2035f786e355511303182\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\692b90d89ded83430bfe9fc99e9cbf57\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\692b90d89ded83430bfe9fc99e9cbf57\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\3d18db9aaeeeb1e9947b4e4d293b8148\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\3d18db9aaeeeb1e9947b4e4d293b8148\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\3d18db9aaeeeb1e9947b4e4d293b8148\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\87f22283ee55c8414d476f8251d5c8dc\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7e2caf4d3eca489887fc649928998d0b\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\87f22283ee55c8414d476f8251d5c8dc\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7e2caf4d3eca489887fc649928998d0b\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\87f22283ee55c8414d476f8251d5c8dc\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7e2caf4d3eca489887fc649928998d0b\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 permission#com.example.bookbuddy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\87f22283ee55c8414d476f8251d5c8dc\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7e2caf4d3eca489887fc649928998d0b\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\87f22283ee55c8414d476f8251d5c8dc\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7e2caf4d3eca489887fc649928998d0b\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\87f22283ee55c8414d476f8251d5c8dc\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7e2caf4d3eca489887fc649928998d0b\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\87f22283ee55c8414d476f8251d5c8dc\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7e2caf4d3eca489887fc649928998d0b\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\87f22283ee55c8414d476f8251d5c8dc\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7e2caf4d3eca489887fc649928998d0b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 uses-permission#com.example.bookbuddy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\87f22283ee55c8414d476f8251d5c8dc\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7e2caf4d3eca489887fc649928998d0b\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\87f22283ee55c8414d476f8251d5c8dc\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7e2caf4d3eca489887fc649928998d0b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\c671c9183374d2479815c4649bb40e2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6986e472deb2035f786e355511303182\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\c671c9183374d2479815c4649bb40e2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6986e472deb2035f786e355511303182\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\c671c9183374d2479815c4649bb40e2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6986e472deb2035f786e355511303182\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78

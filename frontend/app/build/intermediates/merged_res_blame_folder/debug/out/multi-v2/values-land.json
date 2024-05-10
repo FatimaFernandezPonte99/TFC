@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.bookbuddy.app-mergeDebugResources-26:/values-land/values-land.xml",
+            "outputFile": "com.example.bookbuddy.app-mergeDebugResources-30:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\FatimaWork\\.gradle\\caches\\transforms-3\\a43aafed36de94ddbd54fecba4515b53\\transformed\\material-1.9.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\FatimaWork\\.gradle\\caches\\transforms-3\\849eb374dcf01bb327fecf716a8c1edb\\transformed\\material-1.9.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,35,40",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\FatimaWork\\.gradle\\caches\\transforms-3\\cae0069d1585611eb98b1d4f16fa8d6e\\transformed\\appcompat-1.6.1\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\FatimaWork\\.gradle\\caches\\transforms-3\\5c0eaef334778980de736edceb4db71b\\transformed\\appcompat-1.6.1\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
