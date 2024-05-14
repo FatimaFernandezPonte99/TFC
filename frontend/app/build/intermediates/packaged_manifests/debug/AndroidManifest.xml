@@ -43,7 +43,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.BookBuddy"
         android:usesCleartextTraffic="true" >
-
+        <activity
+            android:name="com.example.bookbuddy.LibroViewHolder"
+            android:exported="false" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 

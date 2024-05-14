@@ -80,7 +80,6 @@ public class MainActivity extends AppCompatActivity {
 
     //Método para iniciar sesión
     private void sendPostLogin() throws JSONException {
-        //Aquí irían cosas de la progressbar pero no sé si lo voy a poner
 
         JSONObject requestBody = new JSONObject();
 
@@ -136,7 +135,6 @@ public class MainActivity extends AppCompatActivity {
 
     //Método para el registro
     private void sendRegisterRequest() throws  JSONException {
-        //Aquí irían cosas de la progressbar pero no sé si lo voy a poner
 
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("name", editTextUsername.getText().toString());

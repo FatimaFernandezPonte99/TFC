@@ -11,6 +11,7 @@
     </string-array>
     <color name="black">#FF000000</color>
     <color name="gray">#EAEAEA</color>
+    <color name="light_pink">#EFBDF6</color>
     <color name="pink">#E274F1</color>
     <color name="white">#FFFFFFFF</color>
     <string name="actualizar_perfil">Actualizar el perfil</string>
@@ -31,6 +32,9 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="historial">Historial de libros subidos</string>
     <string name="inicio">Inicio</string>
+    <string name="libros_disponibles1">Estos son los libros</string>
+    <string name="libros_disponibles2">disponibles en el puesto</string>
+    <string name="libros_disponibles3">¿Alguno te llama la atención?</string>
     <string name="libros_disponibles_puesto">Ver libros disponibles</string>
     <string name="mod_perfil">Modificar perfil</string>
     <string name="nombre_del_libro">Nombre del libro</string>
@@ -48,6 +52,7 @@
     <string name="subir_libro2">¡Dale una nueva vida!</string>
     <string name="texto_bienvenida1">Bienvenid@</string>
     <string name="texto_bienvenida2">a BookBuddy!</string>
+    <string name="ver_info_libro">Ver información</string>
     <string name="zoom_in">Zoom In</string>
     <string name="zoom_out">Zoom Out</string>
     <style name="Base.Theme.BookBuddy" parent="Theme.Material3.DayNight.NoActionBar">

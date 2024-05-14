@@ -1441,6 +1441,7 @@ color foreground_material_light
 color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color light_pink
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -3001,6 +3002,7 @@ drawable ic_search_black_24
 drawable icono_inicio
 drawable icono_perfil
 drawable icono_subir_libro
+drawable icono_ver_info
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3167,6 +3169,7 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id autor
+id autor_libro
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3329,6 +3332,9 @@ id layout
 id left
 id leftToRight
 id legacy
+id libros_disponibles1
+id libros_disponibles2
+id libros_disponibles3
 id light
 id line1
 id line3
@@ -3424,6 +3430,7 @@ id outward
 id overshoot
 id packed
 id paginas
+id paginas_libro
 id pais
 id parallax
 id parent
@@ -3446,6 +3453,7 @@ id puesto
 id radio
 id ratio
 id rectangles
+id recycler_view
 id resena
 id reverseSawtooth
 id right
@@ -3582,6 +3590,7 @@ id title
 id titleDividerNoCustom
 id titleTextView
 id title_template
+id titulo_libro
 id titulo_modificar_perfil
 id titulo_perfil
 id toggle
@@ -3738,6 +3747,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_libro_view_holder
 layout activity_main
 layout activity_menu
 layout amu_info_window
@@ -3761,6 +3771,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_historial_libros_subidos
+layout fragment_info_libro
 layout fragment_inicio
 layout fragment_libros_disponibles_puesto
 layout fragment_maps
@@ -3915,6 +3926,9 @@ string historial
 string icon_content_description
 string inicio
 string item_view_role_description
+string libros_disponibles1
+string libros_disponibles2
+string libros_disponibles3
 string libros_disponibles_puesto
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -4043,6 +4057,7 @@ string subir_libro1
 string subir_libro2
 string texto_bienvenida1
 string texto_bienvenida2
+string ver_info_libro
 string zoom_in
 string zoom_out
 style AlertDialog_AppCompat

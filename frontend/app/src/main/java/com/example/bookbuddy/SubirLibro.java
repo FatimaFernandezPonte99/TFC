@@ -141,12 +141,8 @@ public class SubirLibro extends Fragment {
             return;
         }
 
-        //MANEJAMOS AQUÍ EL ID DEL PUESTO:
-
         JsonObjectRequest request = new JsonObjectRequest(
                 Request.Method.POST,
-                //MODIFICA ESTO PARA QUE PILLE EL ID DEL STAND(?)
-                //APARTE NO SABES SI LO DEL TOKEN ESTÁ BIEN PUESTO ASÍ
                 Server.name + "/api/BookBuddy/book/" + stand_id,
                 requestBody,
                 new Response.Listener<JSONObject>() {
