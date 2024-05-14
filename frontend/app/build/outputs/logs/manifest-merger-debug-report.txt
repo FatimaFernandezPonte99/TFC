@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:2:1-53:12
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\849eb374dcf01bb327fecf716a8c1edb\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\FatimaWork\.gradle\caches\transforms-3\656881fb8df59670aa6064cbf1421ccb\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\2f85d943ded04adcb39dc8491a5da90d\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -82,8 +82,8 @@ ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\Androi
 	android:name
 		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:8:22-78
 application
-ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:10:5-49:19
-INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:10:5-49:19
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:10:5-51:19
+INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:10:5-51:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\849eb374dcf01bb327fecf716a8c1edb\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\849eb374dcf01bb327fecf716a8c1edb\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\FatimaWork\.gradle\caches\transforms-3\656881fb8df59670aa6064cbf1421ccb\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -134,34 +134,40 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Fa
 		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:12:9-65
 	android:usesCleartextTraffic
 		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:19:9-44
+activity#com.example.bookbuddy.LibroViewHolder
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:22:13-44
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:33:9-35:71
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:35:9-37:71
 	android:value
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:35:13-68
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:37:13-68
 	android:name
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:34:13-58
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:36:13-58
 activity#com.example.bookbuddy.Menu
-ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:37:9-39:40
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:39:9-41:40
 	android:exported
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:39:13-37
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:38:13-33
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:40:13-33
 activity#com.example.bookbuddy.MainActivity
-ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:40:9-48:20
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:42:9-50:20
 	android:exported
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:42:13-36
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:44:13-36
 	android:name
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:41:13-41
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:43:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:43:13-47:29
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:45:13-49:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:44:17-69
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:46:17-69
 	android:name
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:44:25-66
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:46:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:46:17-77
+ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:48:17-77
 	android:name
-		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:46:27-74
+		ADDED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:48:27-74
 uses-sdk
 INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml

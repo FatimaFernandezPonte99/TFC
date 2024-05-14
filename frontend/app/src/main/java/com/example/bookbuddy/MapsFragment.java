@@ -1,6 +1,7 @@
 package com.example.bookbuddy;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Address;
 import android.location.Geocoder;
@@ -87,6 +88,7 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
         //Marcador de San Andrés
         LatLng puestoSanAndres = new LatLng(43.37016866345176, -8.402021949408889);
         mMap.addMarker(new MarkerOptions().position(puestoSanAndres).title("Puesto San Andrés"));
+        //Movemos la cámara a ese puesto
         mMap.moveCamera(CameraUpdateFactory.newLatLng(puestoSanAndres));
 
         //Marcador Calle Real
@@ -169,14 +171,121 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
                     public void onInfoWindowClick(@NonNull Marker marker) {
                         //AQUÍ SI TAL, QUE PILLE EL ID DEL PUESTO Y LO MANDE CON UN PUTEXTRA AL SIGUIENTE FRAGMENT
                         //EMPIEZA A HACER EL OTRO FRAGMENT Y LUEGO VEMOS
-                        if ((marker.getTitle() != null && marker.getTitle().equals("Puesto San Andrés")) || (marker.getTitle() != null && marker.getTitle().equals("Puesto Calle Real"))
-                        || (marker.getTitle() != null && marker.getTitle().equals("Puesto Los Mallos")) || (marker.getTitle() != null && marker.getTitle().equals("Puesto Elviña"))
-                        || (marker.getTitle() != null && marker.getTitle().equals("Puesto Monte Alto")) || (marker.getTitle() != null && marker.getTitle().equals("Puesto Espacio Coruña"))
-                        || (marker.getTitle() != null && marker.getTitle().equals("Puesto Matogrande"))) {
-                            //AQUÍ DEBERÍA LLEVARTE AL FRAGMENT DE LIBROS DISPONIBLES
-                            Toast.makeText(requireContext(), "Mostrar información del puesto", Toast.LENGTH_SHORT).show();
+                        if (marker.getTitle() != null && marker.getTitle().equals("Puesto San Andrés")) {
+                            //Le pasamos el id del puesto
+                            int stand_id = 1;
+
+                            // Creamos un Bundle para pasar los datos
+                            Bundle bundle = new Bundle();
+                            bundle.putInt("stand_id", stand_id);
+
+                            
                             //Pasamos al fragment de LibrosDisponiblesPuesto
                             Fragment myFragment = new LibrosDisponiblesPuesto();
+                            // Asignamos los argumentos al Fragmento de Destino
+                            myFragment.setArguments(bundle);
+                            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+                            transaction.replace(R.id.fragmentContainer, myFragment);
+                            transaction.addToBackStack(null);
+                            transaction.commit();
+                        } else if (marker.getTitle() != null && marker.getTitle().equals("Puesto Calle Real")) {
+                            //Le pasamos el id del puesto
+                            int stand_id = 2;
+
+                            // Creamos un Bundle para pasar los datos
+                            Bundle bundle = new Bundle();
+                            bundle.putInt("stand_id", stand_id);
+
+
+                            //Pasamos al fragment de LibrosDisponiblesPuesto
+                            Fragment myFragment = new LibrosDisponiblesPuesto();
+                            // Asignamos los argumentos al Fragmento de Destino
+                            myFragment.setArguments(bundle);
+                            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+                            transaction.replace(R.id.fragmentContainer, myFragment);
+                            transaction.addToBackStack(null);
+                            transaction.commit();
+                        } else if (marker.getTitle() != null && marker.getTitle().equals("Puesto Los Mallos")) {
+                            //Le pasamos el id del puesto
+                            int stand_id = 3;
+
+                            // Creamos un Bundle para pasar los datos
+                            Bundle bundle = new Bundle();
+                            bundle.putInt("stand_id", stand_id);
+
+
+                            //Pasamos al fragment de LibrosDisponiblesPuesto
+                            Fragment myFragment = new LibrosDisponiblesPuesto();
+                            // Asignamos los argumentos al Fragmento de Destino
+                            myFragment.setArguments(bundle);
+                            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+                            transaction.replace(R.id.fragmentContainer, myFragment);
+                            transaction.addToBackStack(null);
+                            transaction.commit();
+                        } else if (marker.getTitle() != null && marker.getTitle().equals("Puesto Elviña")) {
+                            //Le pasamos el id del puesto
+                            int stand_id = 4;
+
+                            // Creamos un Bundle para pasar los datos
+                            Bundle bundle = new Bundle();
+                            bundle.putInt("stand_id", stand_id);
+
+
+                            //Pasamos al fragment de LibrosDisponiblesPuesto
+                            Fragment myFragment = new LibrosDisponiblesPuesto();
+                            // Asignamos los argumentos al Fragmento de Destino
+                            myFragment.setArguments(bundle);
+                            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+                            transaction.replace(R.id.fragmentContainer, myFragment);
+                            transaction.addToBackStack(null);
+                            transaction.commit();
+                        } else if (marker.getTitle() != null && marker.getTitle().equals("Puesto Monte Alto")) {
+                            //Le pasamos el id del puesto
+                            int stand_id = 5;
+
+                            // Creamos un Bundle para pasar los datos
+                            Bundle bundle = new Bundle();
+                            bundle.putInt("stand_id", stand_id);
+
+
+                            //Pasamos al fragment de LibrosDisponiblesPuesto
+                            Fragment myFragment = new LibrosDisponiblesPuesto();
+                            // Asignamos los argumentos al Fragmento de Destino
+                            myFragment.setArguments(bundle);
+                            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+                            transaction.replace(R.id.fragmentContainer, myFragment);
+                            transaction.addToBackStack(null);
+                            transaction.commit();
+                        } else if (marker.getTitle() != null && marker.getTitle().equals("Puesto Espacio Coruña")) {
+                            //Le pasamos el id del puesto
+                            int stand_id = 6;
+
+                            // Creamos un Bundle para pasar los datos
+                            Bundle bundle = new Bundle();
+                            bundle.putInt("stand_id", stand_id);
+
+
+                            //Pasamos al fragment de LibrosDisponiblesPuesto
+                            Fragment myFragment = new LibrosDisponiblesPuesto();
+                            // Asignamos los argumentos al Fragmento de Destino
+                            myFragment.setArguments(bundle);
+                            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+                            transaction.replace(R.id.fragmentContainer, myFragment);
+                            transaction.addToBackStack(null);
+                            transaction.commit();
+                        } else if (marker.getTitle() != null && marker.getTitle().equals("Puesto Matogrande")) {
+                            //Le pasamos el id del puesto
+                            int stand_id = 7;
+
+                            // Creamos un Bundle para pasar los datos
+                            Bundle bundle = new Bundle();
+                            bundle.putInt("stand_id", stand_id);
+
+
+                            //Pasamos al fragment de LibrosDisponiblesPuesto
+                            Fragment myFragment = new LibrosDisponiblesPuesto();
+                            // Asignamos los argumentos al Fragmento de Destino
+                            myFragment.setArguments(bundle);
                             FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
                             transaction.replace(R.id.fragmentContainer, myFragment);
                             transaction.addToBackStack(null);

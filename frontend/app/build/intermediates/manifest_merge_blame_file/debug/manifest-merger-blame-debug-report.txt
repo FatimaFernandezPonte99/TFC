@@ -49,7 +49,7 @@
 30-->[androidx.core:core:1.9.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\7e2caf4d3eca489887fc649928998d0b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 31
 32    <application
-32-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:10:5-49:19
+32-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:10:5-51:19
 33        android:allowBackup="true"
 33-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:11:9-35
 34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -73,92 +73,97 @@
 44-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:18:9-47
 45        android:usesCleartextTraffic="true" >
 45-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:19:9-44
-46
-47        <!--
-48             TODO: Before you run your application, you need a Google Maps API key.
-49
-50             To get one, follow the directions here:
+46        <activity
+46-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:21:9-23:40
+47            android:name="com.example.bookbuddy.LibroViewHolder"
+47-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:22:13-44
+48            android:exported="false" />
+48-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:23:13-37
+49        <!--
+50             TODO: Before you run your application, you need a Google Maps API key.
 51
-52                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+52             To get one, follow the directions here:
 53
-54             Once you have your API key (it starts with "AIza"), define a new property in your
-55             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
-56             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
-57        -->
-58        <meta-data
-58-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:33:9-35:71
-59            android:name="com.google.android.geo.API_KEY"
-59-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:34:13-58
-60            android:value="AIzaSyDepnk_Vlv1_9OT6MM-wPQ9LsqzQ1nKZtI" />
-60-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:35:13-68
-61
-62        <activity
-62-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:37:9-39:40
-63            android:name="com.example.bookbuddy.Menu"
-63-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:38:13-33
-64            android:exported="false" />
-64-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:39:13-37
-65        <activity
-65-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:40:9-48:20
-66            android:name="com.example.bookbuddy.MainActivity"
-66-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:41:13-41
-67            android:exported="true" >
-67-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:42:13-36
-68            <intent-filter>
-68-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:43:13-47:29
-69                <action android:name="android.intent.action.MAIN" />
-69-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:44:17-69
-69-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:44:25-66
-70
-71                <category android:name="android.intent.category.LAUNCHER" />
-71-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:46:17-77
-71-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:46:27-74
-72            </intent-filter>
-73        </activity>
-74
-75        <meta-data
-75-->[com.google.maps.android:android-maps-utils:2.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e652a1c3f6a45c9c04053eef3e7a79a5\transformed\android-maps-utils-2.3.0\AndroidManifest.xml:10:9-12:69
-76            android:name="com.google.android.gms.version"
-76-->[com.google.maps.android:android-maps-utils:2.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e652a1c3f6a45c9c04053eef3e7a79a5\transformed\android-maps-utils-2.3.0\AndroidManifest.xml:11:13-58
-77            android:value="@integer/google_play_services_version" /> <!-- Needs to be explicitly declared on P+ -->
-77-->[com.google.maps.android:android-maps-utils:2.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e652a1c3f6a45c9c04053eef3e7a79a5\transformed\android-maps-utils-2.3.0\AndroidManifest.xml:12:13-66
-78        <uses-library
-78-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
-79            android:name="org.apache.http.legacy"
-79-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
-80            android:required="false" />
-80-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
-81
-82        <activity
-82-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f79c03d4776bb7c7ffd4a92afbcd20dc\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
-83            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-83-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f79c03d4776bb7c7ffd4a92afbcd20dc\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:19-85
-84            android:exported="false"
-84-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f79c03d4776bb7c7ffd4a92afbcd20dc\transformed\play-services-base-18.3.0\AndroidManifest.xml:22:19-43
-85            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-85-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f79c03d4776bb7c7ffd4a92afbcd20dc\transformed\play-services-base-18.3.0\AndroidManifest.xml:21:19-78
-86
-87        <provider
-87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-88            android:name="androidx.startup.InitializationProvider"
-88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-89            android:authorities="com.example.bookbuddy.androidx-startup"
-89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-90            android:exported="false" >
-90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-91            <meta-data
-91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-92                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-93                android:value="androidx.startup" />
-93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-94            <meta-data
-94-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6986e472deb2035f786e355511303182\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-95                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-95-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6986e472deb2035f786e355511303182\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-96                android:value="androidx.startup" />
-96-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6986e472deb2035f786e355511303182\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-97        </provider>
-98    </application>
-99
-100</manifest>
+54                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+55
+56             Once you have your API key (it starts with "AIza"), define a new property in your
+57             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+58             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+59        -->
+60        <meta-data
+60-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:35:9-37:71
+61            android:name="com.google.android.geo.API_KEY"
+61-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:36:13-58
+62            android:value="AIzaSyDepnk_Vlv1_9OT6MM-wPQ9LsqzQ1nKZtI" />
+62-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:37:13-68
+63
+64        <activity
+64-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:39:9-41:40
+65            android:name="com.example.bookbuddy.Menu"
+65-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:40:13-33
+66            android:exported="false" />
+66-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:41:13-37
+67        <activity
+67-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:42:9-50:20
+68            android:name="com.example.bookbuddy.MainActivity"
+68-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:43:13-41
+69            android:exported="true" >
+69-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:44:13-36
+70            <intent-filter>
+70-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:45:13-49:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:46:17-69
+71-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:46:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:48:17-77
+73-->C:\Users\FatimaWork\Documents\GitHub\TFC\frontend\app\src\main\AndroidManifest.xml:48:27-74
+74            </intent-filter>
+75        </activity>
+76
+77        <meta-data
+77-->[com.google.maps.android:android-maps-utils:2.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e652a1c3f6a45c9c04053eef3e7a79a5\transformed\android-maps-utils-2.3.0\AndroidManifest.xml:10:9-12:69
+78            android:name="com.google.android.gms.version"
+78-->[com.google.maps.android:android-maps-utils:2.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e652a1c3f6a45c9c04053eef3e7a79a5\transformed\android-maps-utils-2.3.0\AndroidManifest.xml:11:13-58
+79            android:value="@integer/google_play_services_version" /> <!-- Needs to be explicitly declared on P+ -->
+79-->[com.google.maps.android:android-maps-utils:2.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\e652a1c3f6a45c9c04053eef3e7a79a5\transformed\android-maps-utils-2.3.0\AndroidManifest.xml:12:13-66
+80        <uses-library
+80-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+81            android:name="org.apache.http.legacy"
+81-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+82            android:required="false" />
+82-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\4ac8ee8edd5267ba5c6c4c462f503afd\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+83
+84        <activity
+84-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f79c03d4776bb7c7ffd4a92afbcd20dc\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+85-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f79c03d4776bb7c7ffd4a92afbcd20dc\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+86            android:exported="false"
+86-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f79c03d4776bb7c7ffd4a92afbcd20dc\transformed\play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+87-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\f79c03d4776bb7c7ffd4a92afbcd20dc\transformed\play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+88
+89        <provider
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+90            android:name="androidx.startup.InitializationProvider"
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+91            android:authorities="com.example.bookbuddy.androidx-startup"
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+92            android:exported="false" >
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+93            <meta-data
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+95                android:value="androidx.startup" />
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FatimaWork\.gradle\caches\transforms-3\2b665f5da3ee90b02b6ca7efbde2f186\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+96            <meta-data
+96-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6986e472deb2035f786e355511303182\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+97                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+97-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6986e472deb2035f786e355511303182\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+98                android:value="androidx.startup" />
+98-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\FatimaWork\.gradle\caches\transforms-3\6986e472deb2035f786e355511303182\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+99        </provider>
+100    </application>
+101
+102</manifest>
