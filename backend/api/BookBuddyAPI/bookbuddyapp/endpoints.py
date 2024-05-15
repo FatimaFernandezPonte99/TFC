@@ -199,7 +199,7 @@ def books_history(request):
 
 
 #Endpoint para mostrar toda la información pertinente sobre un determinado libro
-def book_info(request, book_id):
+def book_info(request, book_title):
     if request.method == 'GET':
         try:
             token = request.headers.get("token")
@@ -207,7 +207,7 @@ def book_info(request, book_id):
             return JsonResponse({'error': 'Missing data'}, status=400)
 
         try:
-            book = Book.objects.get(pk=book_id)
+            book = Book.objects.get(title=book_title)
             json_response = {
                 'title': book.title,
                 'author': book.author,
@@ -218,25 +218,6 @@ def book_info(request, book_id):
             return JsonResponse (json_response, safe=False, status=200)
         except Book.DoesNotExist:
             return JsonResponse({'error': 'Book not found'}, status=404)
-
-
-#Endpoint para mostrar la información del Stand
-def stand_info(request, stand_id):
-    if request.method == 'GET':
-        try:
-            token = request.headers.get("token")
-        except:
-            return JsonResponse({'error': 'Missing data'}, status=400)
-
-        try:
-            stand = Stand.objects.get(pk=stand_id)
-            json_response = {
-                'name': stand.name,
-                'address': stand.address
-            }
-            return JsonResponse (json_response, safe=False, status=200)
-        except Stand.DoesNotExist:
-            return JsonResponse({'error': 'Stand not found'}, status=404)
 
 
 #Endpoint para mostrar los libros que hay en un determinado stand
@@ -290,9 +271,5 @@ def exchanged_book(request, book_id):
         return  JsonResponse({'error': 'Invalid HTTP method'}, status=405)
 
 
-#PRUEBA
-def stand_list(request):
-    if request.method == 'GET':
-        stands = Stand.objects.all().values_list('name', flat=True)
-        return JsonResponse(list(stands), safe=False)
+
 

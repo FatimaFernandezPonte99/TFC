@@ -47,12 +47,13 @@
     <string name="perfil">Perfil</string>
     <string name="puesto">Puesto</string>
     <string name="resena">Breve reseña (máx 500 caracteres)</string>
+    <string name="seleccionar_libro">Seleccionar libro</string>
     <string name="subir_libro">Subir Libro</string>
     <string name="subir_libro1">¿Planeas subir un libro?</string>
     <string name="subir_libro2">¡Dale una nueva vida!</string>
     <string name="texto_bienvenida1">Bienvenid@</string>
     <string name="texto_bienvenida2">a BookBuddy!</string>
-    <string name="ver_info_libro">Ver información</string>
+    <string name="ver_info_libro">Ver más información</string>
     <string name="zoom_in">Zoom In</string>
     <string name="zoom_out">Zoom Out</string>
     <style name="Base.Theme.BookBuddy" parent="Theme.Material3.DayNight.NoActionBar">

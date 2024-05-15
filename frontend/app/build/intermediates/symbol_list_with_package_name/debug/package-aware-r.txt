@@ -3320,6 +3320,11 @@ id included
 id indeterminate
 id info
 id infoButton
+id info_autor_libro
+id info_editorial_libro
+id info_paginas_libro
+id info_resena_libro
+id info_titulo_libro
 id inicio
 id invisible
 id inward
@@ -4049,6 +4054,7 @@ string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
+string seleccionar_libro
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
