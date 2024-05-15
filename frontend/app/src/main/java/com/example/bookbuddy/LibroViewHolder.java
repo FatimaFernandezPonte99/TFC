@@ -27,27 +27,36 @@ public class LibroViewHolder extends RecyclerView.ViewHolder {
         autor = (TextView) itemView.findViewById(R.id.autor_libro);
         paginas = (TextView) itemView.findViewById(R.id.paginas_libro);
 
+
         //Hacemos que al pulsar en un libro, se abra su info
         //ESTO YA LO HARÁS
-        //itemView.setOnClickListener(new View.OnClickListener() {
-            //@Override
-            //public void onClick(View view) {
-               // AppCompatActivity activity = (AppCompatActivity) view.getContext();
-               // Toast.makeText(activity, "Clicaste en un libro", Toast.LENGTH_SHORT).show();
+        itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AppCompatActivity activity = (AppCompatActivity) view.getContext();
+                InfoLibro infoLibro = new InfoLibro();
+                String title = libro.getTitle();
+                //Hacer un método que se comunique con el back y que me devuelva el id de un libro según
+                //su título, y luego se lo pasas al fragment siguiente y vía
+                Toast.makeText(activity, "Clicaste en el libro: "+title, Toast.LENGTH_SHORT).show();
+
 
                 //AQUÍ TIENES QUE CAMBIAR EL ENDPOINT PARA QUE SE PASE
                 //EL TÍTULO Y NO EL ID DE UN LIBRO PARA MOSTRAR SU INFORMACIÓN :)
                // InfoLibro infoLibro = new InfoLibro();
-               // Bundle bundle = new Bundle();
-               // bundle.putString("title", libro.getTitle());
-                //infoLibro.setArguments(bundle);
+                Bundle bundle = new Bundle();
+                bundle.putString("title", libro.getTitle());
+                infoLibro.setArguments(bundle);
 
-               // FragmentTransaction transaction = activity.getSupportFragmentManager().beginTransaction();
-               // transaction.replace(R.id.fragmentContainer, infoLibro);
-               // transaction.addToBackStack(null);
-               // transaction.commit();
-            //}
-        //});
+                FragmentTransaction transaction = activity.getSupportFragmentManager().beginTransaction();
+                transaction.replace(R.id.fragmentContainer, infoLibro);
+                transaction.addToBackStack(null);
+                transaction.commit();
+            }
+        });
+
+        //PRUEBA DE CLICAR EN EL BOTÓN EN VEZ DE EN EL ÍTEM
+
     }
 
     //Muestra la info básica del libro

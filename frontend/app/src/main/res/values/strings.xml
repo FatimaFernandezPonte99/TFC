@@ -38,7 +38,9 @@
     <string name="libros_disponibles1">Estos son los libros</string>
     <string name="libros_disponibles2">disponibles en el puesto</string>
     <string name="libros_disponibles3">¿Alguno te llama la atención?</string>
-    <string name="ver_info_libro">Ver información</string>
+    <string name="ver_info_libro">Ver más información</string>
+    <string name="seleccionar_libro">Seleccionar libro</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

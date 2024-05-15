@@ -29,6 +29,11 @@ id contrasena
 id editorial
 id fragmentContainer
 id infoButton
+id info_autor_libro
+id info_editorial_libro
+id info_paginas_libro
+id info_resena_libro
+id info_titulo_libro
 id inicio
 id libros_disponibles1
 id libros_disponibles2
@@ -113,6 +118,7 @@ string pais
 string perfil
 string puesto
 string resena
+string seleccionar_libro
 string subir_libro
 string subir_libro1
 string subir_libro2
