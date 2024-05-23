@@ -142,7 +142,10 @@ string texto_bienvenida2
 string ver_info_libro
 string zoom_in
 string zoom_out
+style AlertDialogStyle
 style Base.Theme.BookBuddy
+style NegativeButtonStyle
+style PositiveButtonStyle
 style Theme.BookBuddy
 xml backup_rules
 xml data_extraction_rules
