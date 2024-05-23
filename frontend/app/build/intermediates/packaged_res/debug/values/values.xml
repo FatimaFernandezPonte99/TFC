@@ -31,6 +31,7 @@
     <string name="ejemplo_usuario">tu usuario</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="historial">Historial de libros subidos</string>
+    <string name="historial_1">Actual miembro de:</string>
     <string name="inicio">Inicio</string>
     <string name="libros_disponibles1">Estos son los libros</string>
     <string name="libros_disponibles2">disponibles en el puesto</string>
@@ -48,6 +49,7 @@
     <string name="puesto">Puesto</string>
     <string name="resena">Breve reseña (máx 500 caracteres)</string>
     <string name="seleccionar_libro">Seleccionar libro</string>
+    <string name="sube_mas_libros">¡Sube más libros para subir de rango!</string>
     <string name="subir_libro">Subir Libro</string>
     <string name="subir_libro1">¿Planeas subir un libro?</string>
     <string name="subir_libro2">¡Dale una nueva vida!</string>

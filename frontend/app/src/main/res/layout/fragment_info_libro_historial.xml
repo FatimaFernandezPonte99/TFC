@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fondo">
+
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="600dp"
+        android:background="@color/light_pink"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prueba del título"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:id="@+id/info_titulo_libro"
+                android:layout_marginStart="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Prueba del autor"
+                android:textStyle="italic"
+                android:textColor="@android:color/black"
+                app:layout_constraintTop_toBottomOf="@id/info_titulo_libro"
+                android:layout_marginTop="40dp"
+                android:id="@+id/info_autor_libro"
+                android:layout_marginStart="10dp"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prueba de las páginas"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                app:layout_constraintTop_toBottomOf="@id/info_autor_libro"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:id="@+id/info_paginas_libro"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prueba de la editorial"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                app:layout_constraintTop_toBottomOf="@+id/info_paginas_libro"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:id="@+id/info_editorial_libro"/>
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/info_resena_libro"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:text="Prueba de la reseña del libro aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                app:layout_constraintTop_toBottomOf="@id/info_editorial_libro"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icono_volver"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginBottom="40dp"
+                android:layout_marginStart="20dp"
+                android:backgroundTint="@color/pink"
+                android:id="@+id/boton_volver"/>
+
+
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -3003,6 +3003,8 @@ drawable icono_inicio
 drawable icono_perfil
 drawable icono_subir_libro
 drawable icono_ver_info
+drawable icono_volver
+drawable logo_definitivo3
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3024,6 +3026,9 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable medalla_bronce
+drawable medalla_oro
+drawable medalla_plata
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3183,6 +3188,7 @@ id boton_iniciar_sesion
 id boton_mod_perfil
 id boton_registro
 id boton_subir_libro
+id boton_volver
 id bottom
 id bottomNavigation
 id bounce
@@ -3303,6 +3309,8 @@ id grouping
 id groups
 id header_title
 id hideable
+id historial2
+id historial_titulo
 id home
 id homeAsUp
 id honorRequest
@@ -3373,6 +3381,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id medalla
 id message
 id middle
 id mini
@@ -3539,8 +3548,10 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id status
 id stop
 id stretch
+id sube_mas_libros
 id subirlibro
 id subirlibro1
 id subirlibro2
@@ -3753,6 +3764,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_libro_view_holder
+layout activity_libro_view_holder2
 layout activity_main
 layout activity_menu
 layout amu_info_window
@@ -3777,6 +3789,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_historial_libros_subidos
 layout fragment_info_libro
+layout fragment_info_libro_historial
 layout fragment_inicio
 layout fragment_libros_disponibles_puesto
 layout fragment_maps
@@ -3928,6 +3941,7 @@ string fab_transformation_sheet_behavior
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string historial
+string historial_1
 string icon_content_description
 string inicio
 string item_view_role_description
@@ -4058,6 +4072,7 @@ string seleccionar_libro
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string sube_mas_libros
 string subir_libro
 string subir_libro1
 string subir_libro2

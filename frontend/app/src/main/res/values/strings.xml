@@ -40,6 +40,8 @@
     <string name="libros_disponibles3">¿Alguno te llama la atención?</string>
     <string name="ver_info_libro">Ver más información</string>
     <string name="seleccionar_libro">Seleccionar libro</string>
+    <string name="historial_1">Actual miembro de:</string>
+    <string name="sube_mas_libros">¡Sube más libros para subir de rango!</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
