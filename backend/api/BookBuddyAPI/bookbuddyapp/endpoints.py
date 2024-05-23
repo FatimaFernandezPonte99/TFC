@@ -244,7 +244,7 @@ def stand_books(request, stand_id):
 
 
 @csrf_exempt
-def exchanged_book(request, book_id):
+def exchanged_book(request, book_title):
     if request.method == 'PATCH':
         try:
             token = request.headers.get("token")
@@ -252,7 +252,7 @@ def exchanged_book(request, book_id):
             return JsonResponse({'error': 'Missing data'}, status=400)
 
         try:
-            book = Book.objects.get(pk=book_id)
+            book = Book.objects.get(title=book_title)
         except Book.DoesNotExist:
             return JsonResponse({'error': 'Book not found'}, status=404)
 

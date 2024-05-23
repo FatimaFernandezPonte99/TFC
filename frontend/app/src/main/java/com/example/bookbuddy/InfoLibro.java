@@ -1,5 +1,7 @@
 package com.example.bookbuddy;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -112,7 +114,78 @@ public class InfoLibro extends Fragment {
         queue.add(request);
 
 
+        //PRUEBA PARA SELECCIONAR LIBRO
+        queue = Volley.newRequestQueue(getContext());//ESTO NO SÉ SI ES ASÍ
+        bot_seleccionar_libro = view.findViewById(R.id.bot_confirmar_cambios);
 
+        bot_seleccionar_libro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //QUE SALGA EL POPUP Y LUEGO YA EL PATCH
+                //Creamos el AlertDialog (pop up)
+                AlertDialog.Builder builder = new AlertDialog.Builder(requireContext(), R.style.AlertDialogStyle);
+                builder.setMessage("Si confirmas, el libro dejará de estar disponible en el puesto");
+
+                //Botón positivo
+                builder.setPositiveButton("Confirmar selección", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        //Lanzamos el PATCH
+                        JsonObjectRequest request1 = new JsonObjectRequest(
+                                Request.Method.PATCH,
+                                Server.name + "/api/BookBuddy/exchanged_book/" + title,
+                                null,
+                                new Response.Listener<JSONObject>() {
+                                    @Override
+                                    public void onResponse(JSONObject response) {
+                                        //DESPUÉS, HACER UN POP UP
+                                        Toast.makeText(getContext(), "Has cogido este libro del stand", Toast.LENGTH_LONG).show();
+                                        Fragment myFragment = new MapsFragment();
+                                        requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, myFragment).addToBackStack(null).commit();
+                                    }
+                                },
+                                new Response.ErrorListener() {
+                                    @Override
+                                    public void onErrorResponse(VolleyError error) {
+                                        if (error.networkResponse == null) {
+                                            Toast.makeText(getContext(), "La conexión no se ha establecido", Toast.LENGTH_LONG).show();
+                                        } else {
+                                            int serverCode = error.networkResponse.statusCode;
+                                            Toast.makeText(getContext(), "Estado de respuesta"+serverCode, Toast.LENGTH_LONG).show();
+                                        }
+                                    }
+                                }
+                        )
+                        {
+                            @Override
+                            public Map<String, String> getHeaders() {
+                                // Adjuntar el token de usuario a los encabezados de la solicitud
+                                Map<String, String> headers = new HashMap<>();
+                                headers.put("token", Server.token);
+                                return headers;
+                            }
+                        };
+                        //ESTO NO SÉ SI ES ASÍ
+                        queue.add(request1);
+                    }
+                });
+
+                builder.setNegativeButton("Cancelar selección", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        //Se cierra el pop up sin más
+                    }
+                });
+
+                AlertDialog dialog = builder.create();
+                dialog.show();
+
+
+
+            }
+        });
 
     }
+
+
 }
