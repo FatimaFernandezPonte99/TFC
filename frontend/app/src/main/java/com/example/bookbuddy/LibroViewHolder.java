@@ -29,7 +29,6 @@ public class LibroViewHolder extends RecyclerView.ViewHolder {
 
 
         //Hacemos que al pulsar en un libro, se abra su info
-        //ESTO YA LO HARÁS
         itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -48,10 +47,13 @@ public class LibroViewHolder extends RecyclerView.ViewHolder {
                 bundle.putString("title", libro.getTitle());
                 infoLibro.setArguments(bundle);
 
+
+
                 FragmentTransaction transaction = activity.getSupportFragmentManager().beginTransaction();
                 transaction.replace(R.id.fragmentContainer, infoLibro);
                 transaction.addToBackStack(null);
                 transaction.commit();
+
             }
         });
 

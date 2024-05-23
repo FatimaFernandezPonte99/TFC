@@ -6,6 +6,7 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -33,8 +34,6 @@ import java.util.Map;
 public class LibrosDisponiblesPuesto extends Fragment {
     private Context context;
     private RequestQueue requestQueue;
-    //Mira la movida en los endpoints para pasarle el nombre y no el id
-    private String nombreLibro;
     private LibroAdapter libroAdapter;
     private List<LibroData> allLibros;
 
@@ -63,16 +62,12 @@ public class LibrosDisponiblesPuesto extends Fragment {
 
     private void showRecyclerView(View view) {
         RecyclerView recyclerView = view.findViewById(R.id.recycler_view);
-        //Inicializamos el adapter con la lista actual de libros
-        //libroAdapter = new LibroAdapter(allLibros, getActivity());
 
-        //Lanzamos la petición
-        //DE MOMENTO LO HACEMOS CON UN STAND CONCRETO, YA LO ARREGLARÁS
-        //int stand_id = 1;
-        //PRUEBA
         // Recibimos el int del fragmento de origen
         int stand_id = getArguments().getInt("stand_id", 1); // 0 es el valor predeterminado si no se encuentra el int
 
+
+        //Lanzamos la petición
         JsonArrayRequest request = new JsonArrayRequest(
                 Request.Method.GET,
                 Server.name + "/api/BookBuddy/stand_books/" + stand_id,

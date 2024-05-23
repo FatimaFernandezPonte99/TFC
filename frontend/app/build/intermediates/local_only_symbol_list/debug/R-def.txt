@@ -14,6 +14,11 @@ drawable icono_inicio
 drawable icono_perfil
 drawable icono_subir_libro
 drawable icono_ver_info
+drawable icono_volver
+drawable logo_definitivo3
+drawable medalla_bronce
+drawable medalla_oro
+drawable medalla_plata
 id addressTextView
 id autor
 id autor_libro
@@ -24,10 +29,13 @@ id boton_iniciar_sesion
 id boton_mod_perfil
 id boton_registro
 id boton_subir_libro
+id boton_volver
 id bottomNavigation
 id contrasena
 id editorial
 id fragmentContainer
+id historial2
+id historial_titulo
 id infoButton
 id info_autor_libro
 id info_editorial_libro
@@ -39,6 +47,7 @@ id libros_disponibles1
 id libros_disponibles2
 id libros_disponibles3
 id map
+id medalla
 id nombre_libro
 id nombre_usuario
 id paginas
@@ -49,6 +58,8 @@ id puesto
 id recycler_view
 id resena
 id spinner
+id status
+id sube_mas_libros
 id subirlibro
 id subirlibro1
 id subirlibro2
@@ -71,11 +82,13 @@ id titulo_perfil
 id zoom_in
 id zoom_out
 layout activity_libro_view_holder
+layout activity_libro_view_holder2
 layout activity_main
 layout activity_menu
 layout custom_info_window
 layout fragment_historial_libros_subidos
 layout fragment_info_libro
+layout fragment_info_libro_historial
 layout fragment_inicio
 layout fragment_libros_disponibles_puesto
 layout fragment_maps
@@ -102,6 +115,7 @@ string ejemplo_contraseña
 string ejemplo_usuario
 string hello_blank_fragment
 string historial
+string historial_1
 string inicio
 string libros_disponibles1
 string libros_disponibles2
@@ -119,6 +133,7 @@ string perfil
 string puesto
 string resena
 string seleccionar_libro
+string sube_mas_libros
 string subir_libro
 string subir_libro1
 string subir_libro2
