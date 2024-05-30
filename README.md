@@ -1,6 +1,7 @@
-# TFC BookBuddy![FONDO_FANTASMA_DEFINITIVO](https://github.com/fatimafernandezponte/TFC/assets/145338446/15373be9-aba9-46f6-810b-30c76df167bb)
+# TFC BookBuddy 
 
- 
+ ![logo_bookbuddy](https://github.com/fatimafernandezponte/TFC/assets/145338446/00acac6b-0cea-43a2-b06e-50fa9505f645)
+
 ## Descripción
 BookBuddy es una aplicación que consiste en un servicio de intercambio de libros entre ciudadanos. En la aplicación se podrá ver un mapa con los puestos, los libros disponibles en cada puesto, así como también dará la opción de subir un libro a un puesto. En cada libro se podrán ver sus datos, así como una breve reseña dejada por el usuario que ha subido el libro. Esta aplicación nace con el deseo y necesidad de promover la cultura lectora en A Coruña.
 
