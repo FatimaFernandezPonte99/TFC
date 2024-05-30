@@ -85,3 +85,6 @@ python manage.py runserver
 ## Personas desarrolladoras del proyecto
  **[Fátima Fernández Ponte](https://github.com/fatimafernandezponte)**
 
+ ## Licencia
+Este proyecto no tiene una licencia específica. Todos los derechos están reservados.
+
