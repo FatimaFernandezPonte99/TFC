@@ -70,7 +70,18 @@ Actualmente, este proyecto se encuentra finalizado.
 ## Acceso al proyecto
 Para acceder al proyecto, siga los siguientes pasos:
 1. Clone el repositorio a su máquina local:
-git clone 
+git clone git@github.com:fatimafernandezponte/TFC.git
 
-2. 
-3. 
+2. Instale las librerías mencionadas en el apartado anterior
+
+3. Abra el CMD y navegue hasta el directorio en el que se encuentra el archivo manage.py 
+
+4. Inicie el servidor escribiendo en el cmd lo siguiente:
+python manage.py runserver
+
+5. Abra Android Studio y ejecute la aplicación
+
+
+## Personas desarrolladoras del proyecto
+ **[Fátima Fernández Ponte](
+
