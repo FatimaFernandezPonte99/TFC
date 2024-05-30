@@ -83,5 +83,5 @@ python manage.py runserver
 
 
 ## Personas desarrolladoras del proyecto
- **[Fátima Fernández Ponte](
+ **[Fátima Fernández Ponte](https://github.com/fatimafernandezponte)**
 
