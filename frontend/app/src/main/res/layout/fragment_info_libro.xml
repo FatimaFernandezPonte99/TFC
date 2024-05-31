@@ -23,7 +23,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Prueba del título"
                 android:textSize="25sp"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +37,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:text="Prueba del autor"
                 android:textStyle="italic"
                 android:textColor="@android:color/black"
                 app:layout_constraintTop_toBottomOf="@id/info_titulo_libro"
@@ -50,7 +48,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Prueba de las páginas"
                 android:textSize="20sp"
                 android:textColor="@android:color/black"
                 app:layout_constraintTop_toBottomOf="@id/info_autor_libro"
@@ -62,7 +59,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Prueba de la editorial"
                 android:textSize="20sp"
                 android:textColor="@android:color/black"
                 app:layout_constraintTop_toBottomOf="@+id/info_paginas_libro"
@@ -77,7 +73,6 @@
                 android:id="@+id/info_resena_libro"
                 android:textSize="20sp"
                 android:textColor="@android:color/black"
-                android:text="Prueba de la reseña del libro aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
                 app:layout_constraintTop_toBottomOf="@id/info_editorial_libro"
                 app:layout_constraintStart_toStartOf="parent"
                 android:layout_marginStart="10dp"

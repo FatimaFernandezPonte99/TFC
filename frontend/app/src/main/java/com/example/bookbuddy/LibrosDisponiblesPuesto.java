@@ -63,6 +63,9 @@ public class LibrosDisponiblesPuesto extends Fragment {
     private void showRecyclerView(View view) {
         RecyclerView recyclerView = view.findViewById(R.id.recycler_view);
 
+        //Limpiamos la lista porque, si no, al volver atrás, aparecen los libros por duplicado
+        allLibros.clear();
+
         // Recibimos el int del fragmento de origen
         int stand_id = getArguments().getInt("stand_id", 1); // 0 es el valor predeterminado si no se encuentra el int
 

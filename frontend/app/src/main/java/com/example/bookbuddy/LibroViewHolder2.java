@@ -32,7 +32,7 @@ public class LibroViewHolder2 extends RecyclerView.ViewHolder {
                 AppCompatActivity activity = (AppCompatActivity) view.getContext();
                 InfoLibroHistorial infoLibroHistorial = new InfoLibroHistorial();
                 String title = libro.getTitle();
-                Toast.makeText(activity, "Clicaste en el libro: "+title, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(activity, "Clicaste en el libro: "+title, Toast.LENGTH_SHORT).show();
 
 
 
