@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.InputType;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -48,6 +49,9 @@ public class MainActivity extends AppCompatActivity {
         Button botCrearCuenta = findViewById(R.id.boton_registro);
         editTextUsername = findViewById(R.id.nombre_usuario);
         editTextPassword = findViewById(R.id.contrasena);
+
+        //Le asignamos al EditText de la contraseña un InputType para que no se vea cuando la escribas
+        editTextPassword.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
 
         //Registro
         botCrearCuenta.setOnClickListener(new View.OnClickListener() {

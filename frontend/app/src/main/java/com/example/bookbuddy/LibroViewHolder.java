@@ -39,7 +39,7 @@ public class LibroViewHolder extends RecyclerView.ViewHolder {
 
                 //Obtenemos el título del libro para usarlo después en el nuevo fragment
                 String title = libro.getTitle();
-                Toast.makeText(activity, "Clicaste en el libro: "+title, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(activity, "Clicaste en el libro: "+title, Toast.LENGTH_SHORT).show();
 
                 //Creamos un Bundle para pasar datos al fragment
                 Bundle bundle = new Bundle();

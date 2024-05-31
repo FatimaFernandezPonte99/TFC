@@ -62,6 +62,9 @@ public class HistorialLibrosSubidos extends Fragment {
     }
 
     private void showRecyclerView (View view) {
+        //Limpiamos la lista porque, si no, al volver atrás, aparecen los libros por duplicado
+        allLibros.clear();
+
         //Iniciamos el TextView y el ImageView
         rango = view.findViewById(R.id.status);
         medalla = view.findViewById(R.id.medalla);

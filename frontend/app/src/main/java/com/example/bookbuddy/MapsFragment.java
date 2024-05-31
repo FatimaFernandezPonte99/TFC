@@ -88,8 +88,8 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
         //Marcador de San Andrés
         LatLng puestoSanAndres = new LatLng(43.37016866345176, -8.402021949408889);
         mMap.addMarker(new MarkerOptions().position(puestoSanAndres).title("Puesto San Andrés"));
-        //Movemos la cámara a ese puesto
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(puestoSanAndres));
+        //Movemos la cámara a ese puesto con un determinado Zoom para que se vea bien
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(puestoSanAndres, 13));
 
         //Marcador Calle Real
         LatLng puestoCalleReal = new LatLng(43.3697877752539, -8.40060283308214);
@@ -131,7 +131,7 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
                 .addOnSuccessListener(requireActivity(), location -> {
                     if (location != null) {
                         lastKnownLocation = location;
-                        Toast.makeText(requireContext(), location.toString(), Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(requireContext(), location.toString(), Toast.LENGTH_SHORT).show();
                     }
                 });
 
@@ -139,8 +139,9 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
         mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
             @Override
             public boolean onMarkerClick(Marker marker) {
-                //Verificamos el título del marcador para distinguir la acción
+                //Verificamos si el marcador tiene un título asignado
                 if (marker.getTitle() != null) {
+                    //Verificamos si el título del marcador es el adecuado
                     if (marker.getTitle().equals("Puesto San Andrés")) {
                         //Mostramos la información del puesto
                         marker.setSnippet("Puesto San Andrés\n"+getAddressFromLatLng(marker.getPosition()));
