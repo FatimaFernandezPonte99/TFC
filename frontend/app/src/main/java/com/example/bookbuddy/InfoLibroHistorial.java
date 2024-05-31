@@ -16,9 +16,6 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class InfoLibroHistorial extends Fragment {
     private FloatingActionButton botonVolver;
-
-    //SI TAL HAZ UN LIBROSVIEWHOLDER2 PARA UNIRLO CON ESTE FRAGMENT
-    //creo que sí que lo vas a tener que hacer ;)
     public InfoLibroHistorial() {
         // Required empty public constructor
     }

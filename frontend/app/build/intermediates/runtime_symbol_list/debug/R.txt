@@ -3003,7 +3003,8 @@ int drawable icono_perfil 0x7f0800af
 int drawable icono_subir_libro 0x7f0800b0
 int drawable icono_ver_info 0x7f0800b1
 int drawable icono_volver 0x7f0800b2
-int drawable logo_definitivo3 0x7f0800b3
+int drawable logo_bookbuddy 0x7f0800b3
+int drawable logo_bookbuddyprueba 0x7f080107
 int drawable m3_appbar_background 0x7f0800b4
 int drawable m3_avd_hide_password 0x7f0800b5
 int drawable m3_avd_show_password 0x7f0800b6
@@ -3028,6 +3029,11 @@ int drawable material_ic_menu_arrow_up_black_24dp 0x7f0800c8
 int drawable medalla_bronce 0x7f0800c9
 int drawable medalla_oro 0x7f0800ca
 int drawable medalla_plata 0x7f0800cb
+int drawable modificando 0x7f080101
+int drawable modificando2 0x7f080102
+int drawable modificando3 0x7f080104
+int drawable modificando4 0x7f080105
+int drawable modificando5 0x7f080106
 int drawable mtrl_bottomsheet_drag_handle 0x7f0800cc
 int drawable mtrl_checkbox_button 0x7f0800cd
 int drawable mtrl_checkbox_button_checked_unchecked 0x7f0800ce
@@ -3078,6 +3084,7 @@ int drawable notification_template_icon_bg 0x7f0800fa
 int drawable notification_template_icon_low_bg 0x7f0800fb
 int drawable notification_tile_bg 0x7f0800fc
 int drawable notify_panel_notification_icon_bg 0x7f0800fd
+int drawable segundo_intento 0x7f080103
 int drawable test_level_drawable 0x7f0800fe
 int drawable tooltip_frame_dark 0x7f0800ff
 int drawable tooltip_frame_light 0x7f080100

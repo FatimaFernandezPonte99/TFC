@@ -83,7 +83,6 @@ public class Perfil extends Fragment {
         });
 
         //Cerrar sesión
-        //Va a ser un PopUp
         //Creamos el AlertDialog (pop up)
         botCerrarSesion.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -110,7 +109,7 @@ public class Perfil extends Fragment {
                                 }, new Response.ErrorListener() {
                             @Override
                             public void onErrorResponse(VolleyError error) {
-                                // Manejar errores de Volley
+                                //Manejamos errores de Volley
                                 if(error.networkResponse == null) {
                                     Toast.makeText(getContext(), "error: Internal Server Error", Toast.LENGTH_SHORT).show();
                                 } else {
@@ -121,13 +120,12 @@ public class Perfil extends Fragment {
                         ) {
                             @Override
                             public Map<String, String> getHeaders() {
-                                // Adjuntar el token de usuario al encabezado de la solicitud
+                                //Adjuntamos el token de usuario al encabezado de la solicitud
                                 Map<String, String> headers = new HashMap<>();
                                 headers.put("token", Server.token);
                                 return headers;
                             }
                         };
-                        //ESTO NO SÉ SI ES ASÍ
                         // Agregar la solicitud a la cola de Volley
                         RequestQueue requestQueue = Volley.newRequestQueue(getContext());
                         requestQueue.add(request);
@@ -150,18 +148,17 @@ public class Perfil extends Fragment {
 
     public void volveraMainActivity(){
         Intent intent = new Intent(getActivity(), MainActivity.class);
-        //Obtener el FragmentManager
+        //Obtenemos el FragmentManager
         FragmentManager fragmentManager = getParentFragmentManager();
 
-        //Limpiar la pila de fragmentos para que no haya fragmentos en la parte superior
+        //Limpiamos la pila de fragmentos para que no haya fragmentos en la parte superior
         fragmentManager.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
 
-        //Obtener el AppCompatActivity y finalizarlo
+        //Obtenemos el AppCompatActivity y finalizarlo
         AppCompatActivity activity = (AppCompatActivity) requireActivity();
         startActivity(intent);
-        //Poner el token a null en la clase Server
+        //Ponemos el token a null en la clase Server
         Server.token = null;
-        //ESTO ESTÁ DISTINTO
         activity.finish();
 
     }

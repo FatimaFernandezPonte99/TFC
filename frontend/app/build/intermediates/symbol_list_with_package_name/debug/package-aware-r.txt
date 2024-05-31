@@ -3004,7 +3004,8 @@ drawable icono_perfil
 drawable icono_subir_libro
 drawable icono_ver_info
 drawable icono_volver
-drawable logo_definitivo3
+drawable logo_bookbuddy
+drawable logo_bookbuddyprueba
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3029,6 +3030,11 @@ drawable material_ic_menu_arrow_up_black_24dp
 drawable medalla_bronce
 drawable medalla_oro
 drawable medalla_plata
+drawable modificando
+drawable modificando2
+drawable modificando3
+drawable modificando4
+drawable modificando5
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3079,6 +3085,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable segundo_intento
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light

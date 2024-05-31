@@ -32,14 +32,10 @@ public class LibroViewHolder2 extends RecyclerView.ViewHolder {
                 AppCompatActivity activity = (AppCompatActivity) view.getContext();
                 InfoLibroHistorial infoLibroHistorial = new InfoLibroHistorial();
                 String title = libro.getTitle();
-                //Hacer un método que se comunique con el back y que me devuelva el id de un libro según
-                //su título, y luego se lo pasas al fragment siguiente y vía
                 Toast.makeText(activity, "Clicaste en el libro: "+title, Toast.LENGTH_SHORT).show();
 
 
-                //AQUÍ TIENES QUE CAMBIAR EL ENDPOINT PARA QUE SE PASE
-                //EL TÍTULO Y NO EL ID DE UN LIBRO PARA MOSTRAR SU INFORMACIÓN :)
-                // InfoLibro infoLibro = new InfoLibro();
+
                 Bundle bundle = new Bundle();
                 bundle.putString("title", libro.getTitle());
                 infoLibroHistorial.setArguments(bundle);
