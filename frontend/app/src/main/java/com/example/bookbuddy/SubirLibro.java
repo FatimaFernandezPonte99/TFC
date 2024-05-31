@@ -77,8 +77,6 @@ public class SubirLibro extends Fragment {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
 
-        //CON UN GETINTEXTRA QUE TE MANDE EL ID DEL PUESTO
-
         //Configuramos el listener para el botón
         botSubirLibro.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -106,7 +104,7 @@ public class SubirLibro extends Fragment {
         JSONObject requestBody = new JSONObject();
 
         String stand = spinner.getSelectedItem().toString();
-        //CONSEGUIMOS EL ID DEL STAND
+        //Conseguimos el ID del stand
         int stand_id = 1;
         if (stand.equalsIgnoreCase("Puesto Calle San Andrés")) {
             stand_id = 1;
@@ -167,7 +165,7 @@ public class SubirLibro extends Fragment {
         {
             @Override
             public Map<String, String> getHeaders() {
-                // Adjuntar el token de usuario a los encabezados de la solicitud
+                // Adjuntamos el token de usuario a los encabezados de la solicitud
                 Map<String, String> headers = new HashMap<>();
                 headers.put("token", Server.token);
                 return headers;

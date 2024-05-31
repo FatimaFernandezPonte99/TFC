@@ -48,7 +48,6 @@ public class HistorialLibrosSubidos extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_historial_libros_subidos, container, false);
     }
 
@@ -63,9 +62,6 @@ public class HistorialLibrosSubidos extends Fragment {
     }
 
     private void showRecyclerView (View view) {
-        //Aquí no hace falta que obtengamos ningún dato, ya que
-        //sabe qué usuario es por su token
-
         //Iniciamos el TextView y el ImageView
         rango = view.findViewById(R.id.status);
         medalla = view.findViewById(R.id.medalla);
@@ -87,7 +83,6 @@ public class HistorialLibrosSubidos extends Fragment {
                                 LibroData libro = new LibroData(jsonElement.getString("title"), jsonElement.getString("author"), jsonElement.getInt("num_pages"));
                                 allLibros.add(libro);
                             }
-                            //PRUEBA
                             //Comprobamos cuantos libros hay en la lista para determinar el rango del usuario
                             if (allLibros.size() < 6) {
                                 rango.setText("BRONCE");
@@ -104,11 +99,6 @@ public class HistorialLibrosSubidos extends Fragment {
                             recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
                             libroAdapter2 = new LibroAdapter2(allLibros, requireActivity());
                             recyclerView.setAdapter(libroAdapter2);
-
-                            //Prueba
-                            for (int i=0; i<allLibros.size(); i++) {
-
-                            }
 
 
                         } catch (JSONException e) {

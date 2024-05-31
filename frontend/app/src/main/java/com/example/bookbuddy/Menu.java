@@ -19,7 +19,7 @@ public class Menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        //Ponemos de principal el fragment Inicio
+        //Ponemos de principal el fragment MapsFragment (el que representa el Inicio)
         getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new MapsFragment()).commit();
 
         BottomNavigationView bar = findViewById(R.id.bottomNavigation);

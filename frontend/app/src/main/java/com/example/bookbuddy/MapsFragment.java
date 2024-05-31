@@ -48,13 +48,13 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_maps, container, false);
 
-        // Inicializar la cola de solicitudes
+        //Inicializamos la cola de solicitudes
         requestQueue = Volley.newRequestQueue(requireContext());
 
-        // Inicializar el proveedor de ubicación fusionada
+        //Inicializamos el proveedor de ubicación fusionada
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(requireContext());
 
-        // Obtener el fragmento del mapa y registrar el callback de la lista de espera
+        //Obtenemos el fragmento del mapa y registramos el callback de la lista de espera
         SupportMapFragment mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
@@ -65,7 +65,7 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Agregar botones para acercar y alejar el mapa
+        //Agregamos botones para acercar y alejar el mapa
         Button zoomInButton = requireView().findViewById(R.id.zoom_in);
         Button zoomOutButton = requireView().findViewById(R.id.zoom_out);
 
@@ -115,7 +115,7 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
         LatLng puestoMatogrande = new LatLng(43.34084962067369, -8.404143732340769);
         mMap.addMarker(new MarkerOptions().position(puestoMatogrande).title("Puesto Matogrande"));
 
-        // Comprobar si se han concedido los permisos de ubicación
+        //Comprobamos si se han concedido los permisos de ubicación
         if (ActivityCompat.checkSelfPermission(requireContext(), Manifest.permission.ACCESS_FINE_LOCATION) !=
                 PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(requireContext(),
                 Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -126,7 +126,7 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
 
         mMap.setMyLocationEnabled(true);
 
-        // Obtener la última ubicación conocida
+        //Obtenemos la última ubicación conocida
         fusedLocationProviderClient.getLastLocation()
                 .addOnSuccessListener(requireActivity(), location -> {
                     if (location != null) {
@@ -135,18 +135,18 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
                     }
                 });
 
-        // Agregar un listener para los clics en los marcadores
+        //Agregamos un listener para los clics en los marcadores
         mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
             @Override
             public boolean onMarkerClick(Marker marker) {
-                // Verificar el título del marcador para distinguir la acción
+                //Verificamos el título del marcador para distinguir la acción
                 if (marker.getTitle() != null) {
                     if (marker.getTitle().equals("Puesto San Andrés")) {
-                        // Mostramos la información del puesto
+                        //Mostramos la información del puesto
                         marker.setSnippet("Puesto San Andrés\n"+getAddressFromLatLng(marker.getPosition()));
                         marker.showInfoWindow();
                     } else if (marker.getTitle().equals("Puesto Calle Real")) {
-                        // Mostramos la información del puesto
+                        //Mostramos la información del puesto
                         marker.setSnippet("Puesto Calle Real\n"+getAddressFromLatLng(marker.getPosition()));
                         marker.showInfoWindow();
                     } else if (marker.getTitle().equals("Puesto Los Mallos")) {
@@ -169,13 +169,11 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
                 mMap.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
                     @Override
                     public void onInfoWindowClick(@NonNull Marker marker) {
-                        //AQUÍ SI TAL, QUE PILLE EL ID DEL PUESTO Y LO MANDE CON UN PUTEXTRA AL SIGUIENTE FRAGMENT
-                        //EMPIEZA A HACER EL OTRO FRAGMENT Y LUEGO VEMOS
                         if (marker.getTitle() != null && marker.getTitle().equals("Puesto San Andrés")) {
                             //Le pasamos el id del puesto
                             int stand_id = 1;
 
-                            // Creamos un Bundle para pasar los datos
+                            //Creamos un Bundle para pasar los datos
                             Bundle bundle = new Bundle();
                             bundle.putInt("stand_id", stand_id);
 
@@ -301,19 +299,19 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
         //LISTENERS PARA LOS MARCADORES DE LOS PUESTOS
 
 
-        // Configurar el adaptador para el infoWindow
+        //Configuramos el adaptador para el infoWindow
         mMap.setInfoWindowAdapter(new GoogleMap.InfoWindowAdapter() {
             @Override
             public View getInfoWindow(Marker marker) {
-                return null; // Devuelve null para usar la vista predeterminada del infoWindow
+                return null; //Devuelve null para usar la vista predeterminada del infoWindow
             }
 
             @Override
             public View getInfoContents(Marker marker) {
-                // Crear un layout personalizado para el infoWindow
+                //Creamod un layout personalizado para el infoWindow
                 View infoWindowView = getLayoutInflater().inflate(R.layout.custom_info_window, null);
 
-                // Configurar el texto de la dirección
+                //Configuramos el texto de la dirección
                 TextView snippetTextView = infoWindowView.findViewById(R.id.addressTextView);
                 snippetTextView.setText(marker.getSnippet());
 
@@ -322,7 +320,7 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
         });
     }
 
-    // Método para obtener la dirección a partir de las coordenadas de latitud y longitud
+    //Método para obtener la dirección a partir de las coordenadas de latitud y longitud
     private String getAddressFromLatLng(LatLng latLng) {
         Geocoder geocoder = new Geocoder(requireContext(), Locale.getDefault());
         try {

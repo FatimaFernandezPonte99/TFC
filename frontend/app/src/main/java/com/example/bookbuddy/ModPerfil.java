@@ -53,7 +53,7 @@ public class ModPerfil extends Fragment {
 
         queue = Volley.newRequestQueue(getContext());
 
-        //Inicializar el Botón
+        //Inicializamos el Botón
         botConfirmarCambios = view.findViewById(R.id.bot_confirmar_cambios);
 
         //Configuramos un listener para el botón

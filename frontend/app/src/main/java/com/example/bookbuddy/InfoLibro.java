@@ -48,7 +48,6 @@ public class InfoLibro extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_info_libro, container, false);
     }
 
@@ -71,7 +70,7 @@ public class InfoLibro extends Fragment {
         //Lanzamos la petición
         JsonObjectRequest request = new JsonObjectRequest(
                 Request.Method.GET,
-                Server.name + "/api/BookBuddy/book_info/" + title,//NO SÉ SI ESTO VA
+                Server.name + "/api/BookBuddy/book_info/" + title,
                 null,
                 new Response.Listener<JSONObject>() {
                     @Override
@@ -114,14 +113,14 @@ public class InfoLibro extends Fragment {
         queue.add(request);
 
 
-        //PRUEBA PARA SELECCIONAR LIBRO
-        queue = Volley.newRequestQueue(getContext());//ESTO NO SÉ SI ES ASÍ
+
+        queue = Volley.newRequestQueue(getContext());
         bot_seleccionar_libro = view.findViewById(R.id.bot_confirmar_cambios);
 
+        //Ajustamos para poder seleccionar un libro
         bot_seleccionar_libro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //QUE SALGA EL POPUP Y LUEGO YA EL PATCH
                 //Creamos el AlertDialog (pop up)
                 AlertDialog.Builder builder = new AlertDialog.Builder(requireContext(), R.style.AlertDialogStyle);
                 builder.setMessage("Si confirmas, el libro dejará de estar disponible en el puesto");
@@ -138,7 +137,6 @@ public class InfoLibro extends Fragment {
                                 new Response.Listener<JSONObject>() {
                                     @Override
                                     public void onResponse(JSONObject response) {
-                                        //DESPUÉS, HACER UN POP UP
                                         Toast.makeText(getContext(), "Has cogido este libro del stand", Toast.LENGTH_LONG).show();
                                         Fragment myFragment = new MapsFragment();
                                         requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, myFragment).addToBackStack(null).commit();
@@ -165,7 +163,6 @@ public class InfoLibro extends Fragment {
                                 return headers;
                             }
                         };
-                        //ESTO NO SÉ SI ES ASÍ
                         queue.add(request1);
                     }
                 });
