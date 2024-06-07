@@ -152,7 +152,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(JSONObject response) {
                         Toast.makeText(MainActivity.this, "Registro exitoso!", Toast.LENGTH_LONG).show();
-                        Intent intent = new Intent(MainActivity.this, Menu.class);
+                        Intent intent = new Intent(MainActivity.this, MainActivity.class);
                         startActivity(intent);
                         finish();
                     }

@@ -105,21 +105,21 @@ public class SubirLibro extends Fragment {
 
         String stand = spinner.getSelectedItem().toString();
         //Conseguimos el ID del stand
-        int stand_id = 1;
+        String stand_id = "1";
         if (stand.equalsIgnoreCase("Puesto Calle San Andrés")) {
-            stand_id = 1;
+            stand_id = "1";
         } else if (stand.equalsIgnoreCase("Puesto Calle Real")) {
-            stand_id = 2;
+            stand_id = "2";
         } else if (stand.equalsIgnoreCase("Puesto Los Mallos")) {
-            stand_id = 3;
+            stand_id = "3";
         } else if (stand.equalsIgnoreCase("Puesto Elviña")) {
-            stand_id = 4;
+            stand_id = "4";
         } else if (stand.equalsIgnoreCase("Puesto Monte Alto"))  {
-            stand_id =5;
+            stand_id ="5";
         } else if (stand.equalsIgnoreCase("Puesto Espacio Coruña")) {
-            stand_id = 6;
+            stand_id = "6";
         } else if (stand.equalsIgnoreCase("Puesto Matogrande")) {
-            stand_id = 7;
+            stand_id = "7";
         }
 
         String title = editTextTitulo.getText().toString();
