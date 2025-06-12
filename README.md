@@ -75,7 +75,7 @@ urllib3==2.2.1
 - Android Studio Hedgehog 2023.1.1 o superior
 - JDK 8 o superior
 - SDK de Android
-- 
+  
 **Librerías**:
 ```text
 - implementation("androidx.appcompat:appcompat:1.6.1")
